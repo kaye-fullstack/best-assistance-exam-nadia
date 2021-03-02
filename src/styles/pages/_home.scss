@@ -1406,6 +1406,9 @@
 
 @include respond-to(sm) {
   .home {
+    .media-scroll {
+      display: none;
+    }
     .section-intro {
       .text-holder:nth-child(1) {
         padding-right: 56px;
@@ -1567,19 +1570,7 @@
 @include respond-to(xs) {
   .home {
     .media-scroll {
-      .media-side-scroll {
-        padding-top: 0;
-        padding-right: 16px;
-        padding-left: 16px;
-      }
-    
-      .media-side-icons {
-        width: 15px;
-      }
-    
-      .media-side-icons-fb {
-        width: 8px;
-      }
+      display: none;
     }
 
     .section-intro {
