@@ -1,0 +1,2362 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.home {
+  transition: all .2s ease-in-out;
+  .media-scroll {
+    .media-side-scroll {
+      position: fixed;
+      top: 370px;
+      right: 0;
+
+      padding-top: 9px;
+      padding-right: 22px;
+      padding-left: 22px;
+
+      list-style: none;
+
+      background-color: $bg-media;
+
+      line-height: 2.5;
+      z-index: 2;
+    }
+
+    .media-side-icons {
+      width: 18px;
+    }
+
+    .media-side-icons-fb {
+      width: 10px;
+    }
+  }
+  
+  .section-intro {
+    position: relative;
+    top: 116px;
+
+    padding: 245px 0 184px;
+
+    background-image: url("../assets/images/bg-image.png");
+    background-position: center;
+    background-size: cover;
+  
+    .swiper-container {
+      margin: -34px 2px;
+    }
+    
+    .swiper-slide {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    
+      font-family: $text-opensans-semibold;
+      color: $white;
+    }
+    
+    .icon-holder {
+      .icon {
+        margin: 80px 63px 3px -1px;
+      }
+
+      .icon-desc {
+        font-family: $text-opensans-semibold;
+        font-size: 15px;
+        color: $white;
+        text-align: center;
+      }
+
+      .icon-desc:nth-child(1){
+        margin: 8px 17px;
+      }
+
+      .icon-desc:nth-child(2) {
+        margin: 10px 31px;
+      }
+
+      .icon-desc:nth-child(3) {
+        margin: 10px 15px;
+      }
+    }
+
+    .text-holder:nth-child(1) {
+      padding-right: 821px;;
+
+      font-size: 60px;
+
+      letter-spacing: 1.5px;
+      line-height: 1.2;
+    }
+
+    .text-holder:nth-child(2) {
+      padding-right: 821px;;
+      
+      font-size: 60px;
+
+      letter-spacing: 1.5px;
+      line-height: 1.2;
+    }
+
+    .text-holder:nth-child(3) {
+      padding-right: 821px;;
+
+      font-size: 60px;
+
+      letter-spacing: 1.5px;
+      line-height: 1.2;
+    }
+    
+    .swiper-pagination {
+      position: relative;
+      top: 4px;
+      left: -12px;
+
+      width: 5%;
+
+      .swiper-pagination-bullet {
+        background-color: #fff;
+        color: #fff;
+      }
+    }
+  }
+
+  .section-mission {
+    background-color: $white;
+
+    .custom-container {
+      padding-top: 193px;
+    }
+
+    .mission-pic {
+      margin: -1px -18px;
+    }
+
+    .title {
+      margin: -15px -124px;
+
+      font-family: $text-opensans-semibold;
+      font-size: 41px;
+      color: $black;
+    }
+
+    .description {
+      margin: 48px -124px -30px;
+
+      font-family:$text-opensans-semibold;
+      font-size: 19px;
+      color: $black;
+
+      letter-spacing: -1px;
+    }
+
+    .checklist-icon {
+      margin-right: 20px;
+      margin-left: 4px;
+    }
+
+    .btn-question {
+      .btn-blue {
+        margin: 104px 0 0 -129px;
+      }
+  
+      .why-best-assistance {
+        margin: -39px 218px 0 -102px;
+
+        font-family: $text-opensans-semibold;
+        font-size: 15px;
+        color: $white;
+      }
+    }
+    
+    .history {
+      margin: -25px 0 0 0;
+    }
+
+    .solution {
+      margin: -169px 0 0 68px;
+
+      z-index: 1;
+    }
+    
+    .solution-content {
+      margin: -535px 0 0 115px;
+
+      list-style: none;
+      z-index: 2;
+    }
+    
+    .title-solution {
+      margin: 0 -170px 0 0;
+
+      font-family: $text-opensans-semibold;
+      font-size: 38px;
+      color: $white;
+
+      z-index: 2;
+    }
+
+    .icon-holder {
+      margin: 80px 0 0 42px;
+
+      list-style: none;
+
+      .icon-solution:nth-child(1) {
+        margin: -287px 0 0 -37px;
+      }
+
+      .icon-solution:nth-child(2) {
+        margin: -120px 0 0 -48px;
+      }
+
+      .icon-solution:nth-child(3) {
+        margin: 42px 0 0 -47px;
+      }
+
+      .icon-solution:nth-child(4) {
+        margin: 196px 0 0 -46px;
+      }
+    }
+
+    .icon-content {
+      margin: -351px 0 0 76px;
+
+      list-style: none;         
+
+      .icon-title {
+        margin: 65px 0 0 2px;
+
+        font-family: $text-opensans-semibold;
+        font-size: 18px;
+        color: $white;
+      }
+
+      .icon-title:nth-child(2) {
+        margin: 57px 0 0 2px;
+      }
+
+      .icon-title:nth-child(3) {
+        margin: 52px 0 0 2px;
+      }
+
+      .icon-title:nth-child(4) {
+        margin: 57px 0 0 2px;
+      }
+
+      .icon-text {
+        .icon-desc {
+          margin: -237px -130px 296px 2px;
+          
+          font-family: $text-font-stack;
+          font-size: 16px;
+          color: $white;
+        }
+      }
+
+    }
+  }
+
+  .section-reading {
+    .title {
+      margin: -52px 0 0 2px;
+
+      font-family: $text-opensans-semibold;
+      font-size: 41px;
+      color: $black;
+     }
+  
+    .description {
+      margin: 5px 0 0 2px;
+
+      font-family: $text-opensans-semibold;
+      font-size: 18px;
+      color: $black;
+
+      letter-spacing: .4px;
+    }
+
+    .filter {
+      margin: -20px 0 10px 1443px;
+
+      font-family: $text-opensans-semibold;
+      font-size: 16px;
+    }
+
+    .filter-by {
+      padding: 8px 0;
+      border: none;
+    }
+
+    .news-filter, .health-filter, .success-filter, .case-filter {
+      display: none;
+    }
+
+    .swiper-container {
+      height: 515px;  
+      
+      border: none;
+      border-radius: 0;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 748px;
+
+      background: $white;
+    }
+
+    .swiper-slide:nth-child(1) {
+      width: 747px;
+
+      background-image: url("../assets/images/fight cancer.png");
+      background-position: center;
+      background-size: cover;
+
+      .text-holder {
+        margin-top: auto;
+        margin-bottom: 3px;
+        margin-left: 35px;
+        width: 260px;
+
+        line-height: 1.27;
+        
+        .content-desc {
+          font-family: $text-opensans-bold;
+          font-size: 29px;
+          color: $white;
+  
+          letter-spacing: .4px;
+        }
+  
+        .date {
+          font-size: 14px;
+          color: $white;
+        }
+      }
+
+      .category-news {
+        padding: 3px 12px;
+        margin-top: auto;
+
+        font-size: 14px;
+        color: $white;
+        text-align: center;
+
+        background-color: $bg-news;
+
+        letter-spacing: .4px;
+      }
+    }
+
+    .swiper-slide:nth-child(2) {
+      width: 371px;
+
+      background-image: url("../assets/images/modern life.png");
+      background-position: center;
+      background-size: cover;
+
+      .text-holder {
+        margin-top: auto;
+        margin-bottom: 2px;
+        margin-left: 31px;
+
+        line-height: 1.27;
+
+        .content-desc2 {
+          font-family: $text-opensans-bold;
+          font-size: 29px;
+          color: $white;
+  
+          letter-spacing: .4px;
+        }
+  
+        .date {
+          font-size: 14px;
+          color: $white;
+        }
+      }
+
+      .category-health {
+        padding: 3px 14px;
+        margin-top: auto;
+
+        font-size: 14px;
+        color: $white;
+        text-align: center;
+
+        background-color: $bg-health;
+      }
+    }
+
+    .swiper-slide:nth-child(3) {
+      width: 371px;
+
+      background-image: url("../assets/images/skin.png");
+      background-position: center;
+      background-size: cover;
+
+      .text-holder {
+        margin-top: auto;
+        margin-right: 20px;
+        margin-bottom: 3px;
+        margin-left: 32px;
+
+        line-height: 1.27;
+
+        .content-desc3 {
+          font-family: $text-opensans-bold;
+          font-size: 29px;
+          color: $white;
+  
+          letter-spacing: .4px;
+        }
+  
+        .date {
+          font-size: 14px;
+          color: $white;
+        }
+      }
+
+      .category-success {
+        padding: 3px 13px;
+        margin-top: auto;
+
+        font-size: 14px;
+        color: $white;
+        text-align: center;
+
+        background-color: $bg-success;
+      }
+    }
+
+    .swiper-slide:nth-child(4) {
+      width: 371px;
+
+      background-image: url("../assets/images/modern.png");
+      background-position: center;
+      background-size: cover;
+
+      .text-holder {
+        margin-top: auto;
+        margin-right: 15px;
+        margin-bottom: 2px;
+        margin-left: 36px;
+
+        line-height: 1.27;
+        
+        .content-desc4 {
+          font-family: $text-opensans-bold;
+          font-size: 29px;
+          color: $white;
+  
+          letter-spacing: .4px;
+        }
+  
+        .date {
+          font-size: 14px;
+          color: $white;
+        }
+      }
+
+      .category-case {
+        padding: 3px 11px;
+        margin-top: auto;
+
+        font-size: 14px;
+        color: $white;
+        text-align: center;
+
+        background-color: $bg-case;
+      }
+    }
+
+    .btn-blue {
+      margin: 68px 0 0;
+      width: 200px;
+      height: 58px;
+    }
+
+    .my-journal {
+      margin: -39px 0 0 59px;
+
+      font-size: 16px;
+      color: $white;
+    }
+  }
+
+  .section-system {
+    margin: 99px 0 0 0;
+    height: 852px;
+
+    background-image: url("../assets/images/info system bg.png");
+    background-position: top center;
+    background-size: cover;
+
+    .system-pic {
+      margin: 220px 0 0 19px;
+    }
+
+    .title {
+      margin: 206px 0 0 152px;
+
+      font-family: $text-opensans-semibold;
+      font-size: 41px;
+      color: $black;
+
+      letter-spacing: .1px;
+    }
+
+    .title-blue {
+      margin: -13px 0 0 152px;
+
+      font-family: $text-opensans-semibold;
+      font-size: 43px;
+      color: #21497d;
+
+      letter-spacing: .4px;
+    }
+
+    .description {
+      margin: 34px 0 0 150px;
+      
+      font-size: 18px;
+      color: $black;
+
+      letter-spacing: -1px;
+      line-height: 1.6;
+    }
+
+    .checklist-logo {
+      margin-right: 16px;
+      width: 30px;
+      height: 30px;
+    }
+
+    .checklist-desc {
+      margin: 52px 0 -35px 149px;
+      
+      font-family: $text-opensans-bold;
+      font-size: 18px;
+      color: $black;
+    }
+
+    .design-leaf {
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1373px) {
+  .home {
+    .section-intro {
+      .icon-holder {
+        .icon {
+          margin: 80px 60px 3px -1px;
+        }
+      }
+      
+      .text-holder:nth-child(1) {
+        padding-right: 564px;
+      }
+      
+      .text-holder:nth-child(2) {
+        padding-right: 564px;
+      }
+   
+      .text-holder:nth-child(3) {
+        padding-right: 564px;
+      }
+  
+      .swiper-pagination {
+        position: relative;
+        left: 0;
+      }
+    }
+
+    .section-mission {
+      .mission-pic {
+        margin: -1px 0;
+        width: 270px;
+      }
+
+      .title {
+        margin: -15px -85px;
+
+        font-size: 38px;
+      }
+
+      .description {
+        margin: 50px -87px -35px;
+
+        font-size: 16px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 70px 0 0 -85px;
+          width: 175px;
+          height: 47px;
+        }
+
+        .why-best-assistance {
+          margin: -33px 218px 0 -65px;
+
+          font-size: 14px;
+        }
+      }
+
+      .solution {
+        margin: -140px 0 0 -22px;
+        width: 490px;
+      }
+
+      .solution-content {
+        margin: -445px 0 0 -17px;
+        
+        .title-solution {
+          margin: 0;
+          width: 400px;
+
+          font-size: 34px;
+        }
+
+        .icon-content {
+          margin: -345px 0 0 76px;
+
+          .icon-title {
+            font-size: 16px;
+          }
+
+          .icon-title:nth-child(2) {
+            margin: 64px 0 0 2px;
+          }
+
+          .icon-title:nth-child(3) {
+            margin: 56px 0 0 2px;
+          }
+
+          .icon-title:nth-child(4) {
+            margin: 59px 0 0 2px;
+          }
+
+          .icon-text {
+            .icon-desc {
+              margin: -248px 0 296px 2px;
+              width: 300px;
+
+              font-size: 14px;
+            }
+
+            .icon-desc:nth-child(2) {
+              margin: -229px 0 296px 2px;
+            }
+
+            .icon-desc:nth-child(3) {
+              margin: -238px 0 296px 2px;
+            }
+
+            .icon-desc:nth-child(4) {
+              margin: -235px 0 296px 2px;
+            }
+          }
+        }
+      }
+    }
+
+    .section-reading {
+      .title {
+        font-size: 38px;
+      }
+
+      .description {
+        font-size: 16px;
+      }
+
+      .btn-blue {
+        margin: 45px 0 0;
+      }
+    }
+
+    .section-system {
+      background-position: top left;
+
+      .system-pic {
+        margin: 240px 0 0 19px;
+        width: 550px;
+      }
+
+      .title {
+        margin: 206px -87px 0 120px;
+
+        font-size: 38px;
+      }
+
+      .title-blue {
+        margin: -13px 0 0 121px;
+
+        font-size: 38px;
+      }
+
+      .description {
+        margin: 34px 0 0 125px;
+      }
+
+      .checklist-logo {
+        width: 25px;
+        height: 25px;
+      }
+
+      .checklist-desc {
+        margin: 34px -55px -14px 125px;
+
+        font-size: 16px;
+      }
+
+      .design-leaf {
+        width: 330px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1374px) and (max-width: 1435px) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 626px;
+      }
+      
+      .text-holder:nth-child(2) {
+        padding-right: 626pxpx;
+      }
+   
+      .text-holder:nth-child(3) {
+        padding-right: 626pxpx;
+      }
+    }
+
+    .section-mission {
+      .mission-pic {
+        margin: -1px 20px;
+        width: 310px;
+      }
+
+      .title {
+        margin: -15px -80px;
+      }
+
+      .description {
+        margin: 48px -80px -30px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 84px 0 0 -77px;
+          width: 175px;
+        }
+
+        .why-best-assistance {
+          margin: -35px 218px 0 -58px;
+
+          font-size: 14px;
+        }
+      }
+
+      .solution {
+        margin: -160px 0 0 10px;
+        width: 560px;
+      }
+
+      .solution-content {
+        margin: -485px 0 0 30px;
+      }
+    }
+
+    .section-reading {
+      .title {
+        margin: -52px 0 0 22px;
+      }
+
+      .description {
+        margin: 5px 0 0 22px;
+      }
+
+      .btn-blue {
+        margin: 50px 0 0 22px;
+      }
+
+      .my-journal {
+        margin: -39px 0 0 78px;
+      }
+    }
+
+    .section-system {
+      background-position: top left;
+
+      .description {
+        margin: 15px 0 0 150px;
+      }
+
+      .checklist-desc {
+        margin: 38px 0 -21px 149px;
+      }
+
+      .design-leaf {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1436px) and (max-width: 1599px) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 790px;
+      }
+      
+      .text-holder:nth-child(2) {
+        padding-right: 790px;
+      }
+   
+      .text-holder:nth-child(3) {
+        padding-right: 790px;
+      }
+    }
+
+    .section-mission {
+      .mission-pic {
+        margin: -1px 20px;
+        width: 310px;
+      }
+
+      .title {
+        margin: -15px -80px;
+      }
+
+      .description {
+        margin: 48px -80px -30px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 84px 0 0 -77px;
+          width: 175px;
+        }
+
+        .why-best-assistance {
+          margin: -35px 218px 0 -58px;
+
+          font-size: 14px;
+        }
+      }
+
+      .solution {
+        margin: -160px 0 0 10px;
+        width: 560px;
+      }
+
+      .solution-content {
+        margin: -485px 0 0 30px;
+      }
+    }
+
+    .section-reading {
+      .title {
+        margin: -52px 0 0 22px;
+      }
+
+      .description {
+        margin: 5px 0 0 22px;
+      }
+
+      .btn-blue {
+        margin: 50px 0 0 22px;
+      }
+
+      .my-journal {
+        margin: -39px 0 0 78px;
+      }
+    }
+
+    .section-system {
+      background-position: top left;
+
+      .description {
+        margin: 15px 0 0 150px;
+      }
+
+      .checklist-desc {
+        margin: 38px 0 -21px 149px;
+      }
+
+      .design-leaf {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@include respond-to(lg) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 472px;
+
+        font-size: 48px;
+      }
+
+      .text-holder:nth-child(2) {
+        padding-right: 472px;
+
+        font-size: 48px;
+      }
+
+      .text-holder:nth-child(3) {
+        padding-right: 472px;
+
+        font-size: 48px;
+      }
+
+      .icon-holder {
+        .icon {
+          margin: 80px 36px 3px 0;
+        }
+
+        .icon-desc:nth-child(1) {
+          margin: 8px 0 0 22px;
+
+          font-size: 12px;
+        }
+
+        .icon-desc:nth-child(2) {
+          margin: 10px 38px;
+
+          font-size: 12px;
+        }
+
+        .icon-desc:nth-child(3) {
+          margin: 10px -1px;
+          
+          font-size: 12px;
+        }
+      }
+
+      .swiper-pagination {
+        position: relative;
+        left: -2px;
+
+        width: 7%;
+      }
+    }
+
+    .section-mission {
+      height: 560px;
+
+      .mission-pic {
+        margin: -6px 3px;
+        width: 250px;
+      }
+
+      .title {
+        margin: -15px -50px;
+
+        font-size: 34px;
+      }
+
+      .description {
+        margin: 30px -49px -20px;
+
+        font-size: 14px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 50px 0 0 -50px;
+          width: 140px;
+        }
+
+        .why-best-assistance {
+          margin: -28px 218px 0 -35px;
+          width: 110px;
+
+          font-size: 11px;
+        }
+
+        .history {
+          margin: -27px 0 0 0;
+        }
+      }
+
+      .solution {
+        margin: -132px 0 0 -65px;
+        width: 400px;
+      }
+
+      .solution-content {
+        margin: -366px 0 0 -70px;
+
+        .title-solution {
+          margin: 0 -170px -25px 0;
+          width: 331px;
+
+          font-size: 28px;
+        }
+
+        .icon-holder {
+          margin: 135px 0 0 42px;
+
+          .icon-solution:nth-child(1) {
+            width: 35px;
+          }
+
+          .icon-solution:nth-child(2) {
+            margin: -150px 0 0 -40px;;
+            width: 35px;
+          }
+
+          .icon-solution:nth-child(3) {
+            margin: -15px 0 0 -40px;
+            width: 35px;
+          }
+
+          .icon-solution:nth-child(4) {
+            margin: 115px 0 0 -40px;
+            width: 35px;
+          }
+        }
+
+        .icon-content {
+          margin: -301px 0 0 50px;
+
+          .icon-title {
+            font-size: 15px;
+          }
+
+          .icon-title:nth-child(2) {
+            margin: 48px 0 0 2px;
+          }
+
+          .icon-title:nth-child(3) {
+            margin: 45px 0 0 2px;
+          }
+
+          .icon-title:nth-child(4) {
+            margin: 45px 0 0 2px;
+          }
+
+          .icon-text {
+            .icon-desc {
+              margin: -204px -130px 253px 2px;
+              width: 280px;
+              
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+
+    .section-reading {
+      .title {
+        font-size: 34px;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+
+      .filter {
+        margin: 0 0 5px 800px;
+        width: 0;
+      }
+
+      .btn-blue {
+        margin: 40px 0 0;
+        width: 170px;
+        height: 45px;
+
+      }
+
+      .my-journal {
+        margin:  -33px 0 0 46px;
+
+        font-size: 15px;
+      }
+    }
+
+    .section-system {
+      height: 735px;
+      background-position: top left;
+
+      .system-pic {
+        width: 450px;
+      }
+
+      .title {
+        margin: 206px -109px 0 80px;
+        width: 453px;
+
+        font-size: 32px;
+      }
+
+      .title-blue {
+        margin: -13px 0 0 80px;
+
+        font-size: 32px;
+      }
+
+      .description {
+        margin: 5px 0 0 82px;
+
+        font-size: 16px;
+      }
+
+      .checklist-logo {
+        margin-right: 12px;
+        width: 20px;
+        height: 20px;
+      }
+
+      .checklist-desc {
+        margin: 30px -63px -10px 80px;
+
+        font-size: 16px;
+      }
+
+      .design-leaf {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1134px) and (max-width: 1199px) { 
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 539px;
+      }
+
+      .text-holder:nth-child(2) {
+        padding-right: 539px;
+      }
+
+      .text-holder:nth-child(3) {
+        padding-right: 539px;
+      }
+
+      .icon-holder {
+        .icon-desc:nth-child(1) {
+          margin: 8px 0 0 22px;
+        }
+
+        .icon-desc:nth-child(2) {
+          margin: 10px 38px;
+        }
+
+        .icon-desc:nth-child(3) {
+          margin: 10px -1px;
+        }
+      }
+    }
+
+    .section-mission {
+      .solution {
+        margin: -132px 0 0 -30px;
+      }
+
+      .solution-content {
+        margin: -362px 0 0 -34px;
+      }
+    }
+
+    .section-reading {
+      .filter {
+        margin:  0 0 5px 945px;
+        width: 0;
+      }
+    }
+  }
+}
+
+@include respond-to(md) {
+  .home {
+    .section-intro {
+      .icon-holder {
+        .icon {
+          margin: 80px 20px 3px -1px;
+          width: 52px;
+        }
+  
+        .icon-desc:nth-child(1) {
+          margin: 8px 15px;
+
+          font-size: 13px;
+        }
+  
+        .icon-desc:nth-child(2) {
+          margin: 8px -4px;
+
+          font-size: 13px;
+        }
+  
+        .icon-desc:nth-child(3) {
+          margin: 9px 8px;
+
+          font-size: 13px;
+        }
+      }
+      .text-holder:nth-child(1) {
+        padding-right: 232px;
+
+        font-size: 45px;
+      }
+  
+      .text-holder:nth-child(2) {
+        padding-right: 232px;
+
+        font-size: 45px;
+      }
+  
+      .text-holder:nth-child(3) {
+        padding-right: 232px;
+
+        font-size: 45px;
+      }
+  
+      .swiper-pagination {
+        width: 11%;
+      }
+    }
+  
+    .section-mission {
+      .mission-pic {
+        width: 270px;
+        margin: -1px 0;
+      }
+  
+      .title {
+        margin: -15px 65px;
+
+        font-size: 38px;
+      }
+  
+      .description {
+        margin: 30px 66px -15px;
+
+        font-size: 16px;
+      }
+  
+      .btn-question {
+        .btn-blue {
+          margin: 50px 0 0 70px;
+          width: 185px;
+        }
+  
+        .why-best-assistance {
+          margin: -38px 218px 0 88px;
+        }
+      }
+  
+  
+      .solution {
+        margin: 65px 0 0 0;
+        width: 738px;
+        height: 600px;
+      }
+  
+      .solution-content {
+        margin: -490px 0 0 105px;
+
+        .title-solution {
+          margin: 0 -380px 0 0;
+        }
+      }
+  
+      .icon-content {
+        .icon-title {
+          margin: 65px -155px 0 2px;
+        }
+  
+        .icon-title:nth-child(3) {
+          margin: 52px -190px 0 2px;
+        }
+  
+        .icon-text {
+          .icon-desc {
+            margin: -237px -350px 296px 2px;
+          }
+        }
+      }
+    }
+  
+    .section-reading {
+      .title {
+        margin: -125px 0 0 2px;
+
+        font-size: 38px;
+      }
+
+      .filter {
+        display: none;
+      }
+  
+      .btn-blue {
+        margin: 40px 0 0;
+      }
+  
+      .my-journal {
+        margin: -39px -50px 0 58px;
+      }
+    }
+  
+    .section-system {
+      margin: 70px 0 0 0;
+      height: 1080px;
+  
+      background-position: top left;
+  
+      .system-pic {
+        width: 500px;
+      }
+  
+      .title {
+        margin: 635px 0 0 -305px;
+
+        font-size: 38px;
+      }
+  
+      .title-blue {
+        margin: -13px 0 0 -305px;
+
+        font-size: 38px;
+      }
+  
+      .description {
+        margin: 5px 0 0 -305px;
+
+        font-size: 16px;
+      }
+  
+      .checklist-desc {
+        margin: 25px 0 -15px -305px;
+
+        font-size: 16px;
+      }
+  
+      .design-leaf {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 856px) and (max-width: 988px) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 365px;
+
+        font-size: 45px;
+      }
+
+      .text-holder:nth-child(2) {
+        padding-right: 365px;
+
+        font-size: 45px;
+      }
+
+      .text-holder:nth-child(3) {
+        padding-right: 365px;
+
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+@media (min-width: 989px) and (max-width: 991px) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 370px;
+
+        font-size: 45px;
+      }
+
+      .text-holder:nth-child(2) {
+        padding-right: 370px;
+
+        font-size: 45px;
+      }
+
+      .text-holder:nth-child(3) {
+        padding-right: 370px;
+
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+@include respond-to(sm) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 56px;
+
+        font-size: 48px;
+      }
+
+      .text-holder:nth-child(2) {
+        padding-right: 56px;
+
+        font-size: 48px;
+      }
+
+      .text-holder:nth-child(3) {
+        padding-right: 56px;
+
+        font-size: 48px;
+      }
+
+      .swiper-pagination {
+        width: 15%;
+      }
+    }
+
+    .section-mission {
+      .mission-pic {
+        display: none;
+      }
+
+      .title {
+        margin: -15px 15px;
+
+        font-size: 38px;
+      }
+
+      .description {
+        margin: 48px 0 -30px 15px;
+
+        font-size: 16px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 65px 0 0 15px;
+        }
+
+        .why-best-assistance {
+          margin: -39px 218px 0 40px;
+        }
+      }
+
+      .solution {
+        width: 545px;
+        margin: 50px 0 0 0;
+      }
+
+      .solution-content {
+        margin: -480px 0 0 10px;
+
+        .title-solution {
+          margin: 0;
+        }
+      }
+
+      .icon-content {
+        .icon-text {
+          .icon-desc {
+            margin: -237px 0 296px 2px;
+          }
+        }
+      }
+    }
+
+    .section-reading {
+      .title {
+        margin: -115px 0 0 0;
+
+        font-size: 38px;
+      }
+
+      .description {
+        margin: 5px 170px 0 2px;
+
+        font-size: 16px;
+      }
+
+      .filter {
+        display: none;
+      }
+
+      .btn-blue {
+        margin: 35px 0 0;
+      }
+    }
+
+    .section-system {
+      background-position: top left;
+      height: 1025px;
+      .system-pic {
+        margin: 175px 0 0 19px;
+        width: 510px;
+      }
+
+      .title {
+        margin: -5px -5px 0 0;
+
+        font-size: 38px;
+      }
+
+      .title-blue {
+        margin: -13px 0 0 0;
+
+        font-size: 38px;
+      }
+
+      .description {
+        margin: 5px 290px 0 0;
+
+        font-size: 16px;
+      }
+
+      .checklist-desc {
+        margin: 18px 0 0 0;
+
+        font-size: 16px;
+      }
+
+      .design-leaf {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 718px) and (max-width: 767px) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 106px;
+
+        font-size: 48px;
+      }
+  
+      .text-holder:nth-child(2) {
+        padding-right: 106px;
+
+        font-size: 48px;
+      }
+  
+      .text-holder:nth-child(3) {
+        padding-right: 106px;
+
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+@include respond-to(xs) {
+  .home {
+    .media-scroll {
+      .media-side-scroll {
+        padding-top: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+      }
+    
+      .media-side-icons {
+        width: 15px;
+      }
+    
+      .media-side-icons-fb {
+        width: 8px;
+      }
+    }
+
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 0;
+
+        font-size: 48px;
+      }
+  
+      .text-holder:nth-child(2) {
+        padding-right: 0;
+
+        font-size: 48px;
+      }
+  
+      .text-holder:nth-child(3) {
+        padding-right: 0;
+
+        font-size: 48px;
+      }
+
+      .swiper-pagination {
+        width: 25%;
+      }
+    }
+
+    .section-mission {
+      .mission-pic {
+        display: none;
+      }
+
+      .title {
+        margin: -15px 15px;
+        font-size: 38px;
+      }
+
+      .description {
+        margin: 48px 0 -30px 15px;
+        font-size: 16px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 65px 0 0 15px;
+        }
+
+        .why-best-assistance {
+          margin: -39px 218px 0 40px;
+        }
+      }
+
+      .solution {
+        width: 490px;
+        height: 550px;
+        margin: 50px 0 0 0;
+      }
+
+      .solution-content {
+        margin: -480px 0 0 10px;
+
+        .title-solution {
+          margin: 0;
+          font-size: 34px;
+        }
+      }
+
+      .icon-content {
+        margin: -351px 0 0 76px;
+        .icon-title {
+          font-size: 14px;
+        }
+
+        .icon-title:nth-child(2) {
+          margin: 75px 0 0 2px;
+        }  
+
+        .icon-title:nth-child(3) {
+          margin: 57px 0 0 2px;
+        }
+
+        .icon-title:nth-child(4) {
+          margin: 57px 0 0 2px;
+        }
+        .icon-text {
+          .icon-desc {
+            margin: -227px 0 284px 2px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .section-reading {
+      .title {
+        margin: -115px 0 0 0;
+
+        font-size: 38px;
+      }
+
+      .description {
+        margin: 5px 170px 0 2px;
+
+        font-size: 16px;
+      }
+
+      .filter {
+        display: none;
+      }
+
+      .btn-blue {
+        margin: 35px 0 0;
+      }
+    }
+
+    .section-system {
+      background-position: top left;
+      height: 1025px;
+
+      .system-pic {
+        margin: 175px 0 0 19px;
+        width: 455px;
+      }
+
+      .title {
+        margin: -5px -5px 0 0;
+
+        font-size: 38px;
+      }
+
+      .title-blue {
+        margin: -13px 0 0 0;
+
+        font-size: 38px;
+      }
+
+      .description {
+        margin: 5px 180px 0 0;
+        
+        font-size: 16px;
+      }
+
+      .checklist-desc {
+        margin: 18px 0 0 0;
+
+        font-size: 16px;
+      }
+
+      .design-leaf {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 391px) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 11px;
+
+        font-size: 26px;
+      }
+  
+      .text-holder:nth-child(2) {
+        padding-right: 11px;
+
+        font-size: 26px;
+      }
+  
+      .text-holder:nth-child(3) {
+        padding-right: 11px;
+
+        font-size: 26px;
+      }
+
+      .icon-holder {
+        .icon {
+          margin: 80px 34px 3px -1px;
+        }
+  
+        .icon-desc {
+          font-family: $text-opensans-semibold;
+          font-size: 12px;
+          color: $white;
+          text-align: center;
+        }
+  
+        .icon-desc:nth-child(1){
+          margin: 8px 17px;
+        }
+  
+        .icon-desc:nth-child(2) {
+          margin: 10px 21px;
+        }
+  
+        .icon-desc:nth-child(3) {
+          margin: 10px 15px;
+        }
+      }
+    }
+
+    .section-mission {
+      .title {
+        font-size: 34px;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 65px 0 0 15px;
+          width: 150px;
+          height: 44px;
+        }
+
+        .why-best-assistance {
+          margin: -30px 160px 0 31px;
+
+          font-size: 12px;
+        }
+      }
+
+      .history {
+        margin: -24px 0 0 0;
+      }
+
+      .solution {
+        margin: 50px 0 0 0;
+        width: 295px;
+        height: 580px;
+      }
+
+      .solution-content {
+        margin: -480px 0 0 -12px;
+
+        .title-solution {
+          margin: 0 0 0 -5px;
+          
+          font-size: 21px;
+        }
+      }
+
+      .icon-content {
+        .icon-title {
+          margin: 65px 0 0 -15px;
+
+          font-size: 17px;
+        }
+
+        .icon-title:nth-child(2) {
+          margin: 66px 0 0 -15px;
+        }
+
+        .icon-title:nth-child(3) {
+          margin: 58px 0 0 -15px;
+        }
+
+        .icon-title:nth-child(4) {
+          margin: 53px 0 0 -15px;
+        }
+
+        .icon-text {
+          .icon-desc {
+            margin: -242px 71px 292px -15px;
+
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .section-reading {
+      .title {
+        font-size: 34px;
+      }
+
+      .description {
+        margin: -5px 0 5px 2px;
+
+        font-size: 14px;
+      }
+
+      .swiper-slide:nth-child(1) {
+        .text-holder {
+          .content-desc {
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(2) {
+        .text-holder {
+          .content-desc2 {
+            margin: 0 100px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(3) {
+        .text-holder {
+          .content-desc3 {
+            margin: 0 90px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(4) {
+        .text-holder {
+          .content-desc4 {
+            margin: 0 100px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+    }
+
+    .section-system {
+      height: 815px;
+
+      .system-pic {
+        width: 255px;
+      }
+
+      .title {
+        margin: 0 -5px 5px 0;
+
+        font-size: 34px;
+      }
+
+      .title-blue {
+        font-size: 34px;
+      }
+
+      .description {
+        margin: 5px 0 0 0;
+
+        font-size: 14px;
+      }
+
+      .checklist-logo {
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+      }
+
+      .checklist-desc {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (min-width: 392px) and (max-width: 471px) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 83px;
+
+        font-size: 26px;
+      }
+  
+      .text-holder:nth-child(2) {
+        padding-right: 83px;
+
+        font-size: 26px;
+      }
+  
+      .text-holder:nth-child(3) {
+        padding-right: 83px;
+
+        font-size: 26px;
+      }
+
+      .icon-holder {
+        .icon {
+          margin: 80px 34px 3px -1px;
+        }
+  
+        .icon-desc {
+          font-family: $text-opensans-semibold;
+          font-size: 12px;
+          color: $white;
+          text-align: center;
+        }
+  
+        .icon-desc:nth-child(1){
+          margin: 8px 17px;
+        }
+  
+        .icon-desc:nth-child(2) {
+          margin: 10px 21px;
+        }
+  
+        .icon-desc:nth-child(3) {
+          margin: 10px 15px;
+        }
+      }
+    }
+
+    .section-mission {
+      .title {
+        font-size: 34px;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 65px 0 0 15px;
+          width: 150px;
+          height: 44px;
+        }
+
+        .why-best-assistance {
+          margin: -30px 160px 0 31px;
+
+          font-size: 12px;
+        }
+      }
+
+      .history {
+        margin: -24px 0 0 0;
+      }
+
+      .solution {
+        margin: 50px 0 0 0;
+        width: 360px;
+        height: 580px;
+      }
+
+      .solution-content {
+        margin: -480px 0 0 0;
+
+        .title-solution {
+          margin: 0 0 0 -5px;
+
+          font-size: 21px;
+        }
+      }
+
+      .icon-holder {
+        margin-left: 30px;
+      }
+
+      .icon-content {
+        margin: -350px 0 0 55px;
+
+        .icon-title {
+          margin: 65px 0 0 -15px;
+
+          font-size: 17px;
+        }
+
+        .icon-title:nth-child(2) {
+          margin: 66px 0 0 -15px;
+        }
+
+        .icon-title:nth-child(3) {
+          margin: 58px 0 0 -15px;
+        }
+
+        .icon-title:nth-child(4) {
+          margin: 53px 0 0 -15px;
+        }
+
+        .icon-text {
+          .icon-desc {
+            margin: -242px 0 308px -15px;
+
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .section-reading {
+      .title {
+        font-size: 34px;
+      }
+
+      .description {
+        margin: -5px 0 5px 2px;
+
+        font-size: 14px;
+      }
+
+      .swiper-slide:nth-child(1) {
+        .text-holder {
+          .content-desc {
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(2) {
+        .text-holder {
+          .content-desc2 {
+            margin: 0 100px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(3) {
+        .text-holder {
+          .content-desc3 {
+            margin: 0 90px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(4) {
+        .text-holder {
+          .content-desc4 {
+            margin: 0 100px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+    }
+
+    .section-system {
+      height: 815px;
+
+      .system-pic {
+        width: 255px;
+      }
+
+      .title {
+        margin: 0 -5px 5px 0;
+
+        font-size: 34px;
+      }
+
+      .title-blue {
+        font-size: 34px;
+      }
+
+      .description {
+        margin: 5px 0 0 0;
+
+        font-size: 14px;
+      }
+
+      .checklist-logo {
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+      }
+
+      .checklist-desc {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (min-width: 472px) and (max-width: 520px) {
+  .home {
+    .section-intro {
+      .text-holder:nth-child(1) {
+        padding-right: 163px;
+
+        font-size: 26px;
+      }
+  
+      .text-holder:nth-child(2) {
+        padding-right: 163px;
+
+        font-size: 26px;
+      }
+  
+      .text-holder:nth-child(3) {
+        padding-right: 163px;
+
+        font-size: 26px;
+      }
+
+      .icon-holder {
+        .icon {
+          margin: 80px 34px 3px -1px;
+        }
+  
+        .icon-desc {
+          font-family: $text-opensans-semibold;
+          font-size: 12px;
+          color: $white;
+          text-align: center;
+        }
+  
+        .icon-desc:nth-child(1){
+          margin: 8px 17px;
+        }
+  
+        .icon-desc:nth-child(2) {
+          margin: 10px 21px;
+        }
+  
+        .icon-desc:nth-child(3) {
+          margin: 10px 15px;
+        }
+      }
+    }
+
+    .section-mission {
+      .title {
+        font-size: 34px;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+
+      .btn-question {
+        .btn-blue {
+          margin: 65px 0 0 15px;
+          width: 150px;
+          height: 44px;
+        }
+
+        .why-best-assistance {
+          margin: -30px 160px 0 31px;
+
+          font-size: 12px;
+        }
+      }
+
+      .history {
+        margin: -24px 0 0 0;
+      }
+
+      .solution {
+        margin: 50px 0 0 0;
+        width: 440px;
+        height: 600px;
+      }
+
+      .solution-content {
+        margin: -480px 0 0 0;
+
+        .title-solution {
+          margin: 0 0 0 -5px;
+
+          font-size: 21px;
+        }
+      }
+
+      .icon-holder {
+        margin-left: 30px;
+      }
+
+      .icon-content {
+        margin: -350px 0 0 55px;
+
+        .icon-title {
+          margin: 65px 0 0 -15px;
+
+          font-size: 17px;
+        }
+
+        .icon-title:nth-child(2) {
+          margin: 66px 0 0 -15px;
+        }
+
+        .icon-title:nth-child(3) {
+          margin: 58px 0 0 -15px;
+        }
+
+        .icon-title:nth-child(4) {
+          margin: 53px 0 0 -15px;
+        }
+
+        .icon-text {
+          .icon-desc {
+            margin: -242px 0 308px -15px;
+
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .section-reading {
+      .title {
+        font-size: 34px;
+      }
+
+      .description {
+        margin: -5px 0 5px 2px;
+
+        font-size: 14px;
+      }
+
+      .swiper-slide:nth-child(1) {
+        .text-holder {
+          .content-desc {
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(2) {
+        .text-holder {
+          .content-desc2 {
+            margin: 0 100px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(3) {
+        .text-holder {
+          .content-desc3 {
+            margin: 0 90px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+
+      .swiper-slide:nth-child(4) {
+        .text-holder {
+          .content-desc4 {
+            margin: 0 100px 0 0;
+
+            font-size: 26px;
+          }
+        }
+      }
+    }
+
+    .section-system {
+      height: 815px;
+
+      .system-pic {
+        width: 255px;
+      }
+
+      .title {
+        margin: 0 -5px 5px 0;
+
+        font-size: 34px;
+      }
+
+      .title-blue {
+        font-size: 34px;
+      }
+
+      .description {
+        margin: 5px 0 0 0;
+        
+        font-size: 14px;
+      }
+
+      .checklist-logo {
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+      }
+
+      .checklist-desc {
+        font-size: 14px;
+      }
+    }
+  }
+}

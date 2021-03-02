@@ -1,0 +1,96 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+$font-opensans: 'Open Sans';
+
+/// @type List
+$text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: #222 !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: #E50050 !default;
+
+/// Light grey
+/// @type Color
+$light-grey: #EDEDED !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: #999 !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: #444 !default;
+
+/// Black
+/// @type Color
+$black: #000 !default;
+
+/// White
+/// @type Color
+$white: #fff !default;
+
+/// Button Contact Color
+/// @type Color
+$bg-contact: #f9aa49 !default;
+
+/// Button Language Color
+/// @type Color
+$bg-language: #2574b6 !default;
+
+/// Header Background
+/// @type Color
+$bg-header: #fafbfd !default;
+
+///Button History
+/// @type Color
+$btn-history: #fde4c5 !default;
+
+/// Category News
+/// @type Color
+$bg-news: #f8a845 !default;
+
+/// Category Health
+/// @type Color
+$bg-health: #9ab854 !default;
+
+/// Category Success
+/// @type Color
+$bg-success: #278dd7 !default;
+
+/// Category Case
+/// @type Color
+$bg-case: #ae6b14 !default;
+
+
+/// Media Scroll bg
+/// @type Color
+$bg-media: #fffef9 !default;
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '../assets/' !default;
+
+$font-opensans-semibold: 'OpenSans-Semibold';
+$text-opensans-semibold: $font-opensans-semibold, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$font-opensans-bold: 'OPENSANS-BOLD';
+$text-opensans-bold: $font-opensans-bold, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$font-webfont: 'fontawesome-webfont';
+$text-webfont: $font-webfont, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;

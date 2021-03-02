@@ -1,0 +1,106 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn-contact {
+  display: inline-block;
+  padding: 14px 25px;
+  margin: 16px -1px 0 0;
+
+  font-family: $text-opensans-semibold;
+  font-size: 14px;
+  color: $white;
+
+  background-color: $bg-contact;
+  border: none;
+  border-radius: 25px;
+  outline: 0;
+
+  cursor: pointer;
+}
+
+.btn-history {
+  padding: 18px 57px;
+  margin: -13px 0 0 81px;
+  
+  font-family: $text-opensans-semibold;
+  font-size: 15px;
+  color: $black;
+  
+  background-color: $btn-history;
+  border: none;
+  border-radius: 25px;
+  outline: 0;
+
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) and (max-width: 1373px) { 
+  .btn-history {
+    padding: 14px 46px;
+    margin: -10px 0 0 95px;
+    
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1374px) and (max-width: 1435px) {
+  .btn-history {
+    padding: 15px 46px;
+    margin: -13px 0 0 105px;
+
+    font-size: 14px;
+  }
+}
+
+@include respond-to(lg-down) {
+  .btn-contact {
+    padding: 13px 20px;
+    margin: 30px -1px 0 0;
+
+    font-size: 12px;
+  }
+
+  .btn-history {
+    padding: 12px 35px;
+    margin: 0 0 0 95px;
+
+    font-size: 11px;
+  }
+}
+
+@include respond-to(md-down) {
+  .btn-contact {
+    margin: 16px -1px 0 15px;
+  }
+
+  .btn-history {
+    padding: 15px 55px;
+    margin: -12px 0 0 260px;
+
+    font-size: 15px;
+  }
+}
+
+@include respond-to(sm-down) {
+  .btn-contact {
+    margin: 16px -1px 0 15px;
+  }
+
+  .btn-history {
+    margin: -13px 0 0 230px;
+
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 520px) {
+  .btn-history {
+    padding: 15px 35px;
+    margin: -44px 0 0 172px;
+    
+    font-size: 12px;
+  }
+}
