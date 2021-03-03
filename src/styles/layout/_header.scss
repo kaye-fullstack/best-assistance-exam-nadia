@@ -15,6 +15,10 @@
   background: 0 0;
   border-bottom: 1px solid #DFE0E2;
 
+  .best-logo {
+    margin: -5px 0 0 0;
+  }
+
   .container {
     margin-top: -25px;
     z-index: 1;
@@ -41,8 +45,10 @@
   }
 
   .form-control{
-    padding: 14px 36px 13px 22px;
-    margin: 16px 0 0 4px;
+    
+    padding: 14px 39px 13px 22px;
+    margin: 16px 0 0 -2px;
+
 
     font-family: $text-opensans-semibold;
     font-size: 14px;
@@ -74,7 +80,9 @@
   .section-header {
     .navbar-nav {
       .nav-link {
-        padding: 16px 15px 0 5px;
+        padding: 12px 39px 0 6px;
+      
+        letter-spacing: .2px;
       }
     }
   }

@@ -7,7 +7,7 @@
 .btn-contact {
   display: inline-block;
   padding: 14px 25px;
-  margin: 16px -1px 0 0;
+  margin: 16px 5px 0 0;
 
   font-family: $text-opensans-semibold;
   font-size: 14px;
@@ -55,6 +55,13 @@
   }
 }
 
+@media (min-width: 1436px) and (max-width: 1599px) {
+  .btn-history {
+    padding: 15px 45px;
+    margin: -13px 0 0 102px;
+  }
+}
+ 
 @include respond-to(lg-down) {
   .btn-contact {
     padding: 13px 20px;

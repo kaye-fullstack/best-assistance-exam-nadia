@@ -20,7 +20,7 @@
         margin-top: 38px;
 
         .title {
-          margin: -45px 0 29px 0;
+          margin: -46px 0 29px 3px;
 
           font-family: $text-opensans-semibold;
           font-size: 41px;
@@ -30,21 +30,21 @@
         }
     
         .description {
-          margin: -19px 0 31px 0;
+          margin: -19px 0 31px 4px;
 
           font-size: 17px;
           color: $white;
 
-          letter-spacing: -.2px;
+          letter-spacing: -.17px;
         }
 
         .download-links{
           .ios{
-            margin: -33px 0 -75px 0;
+            margin: -33px 0 -75px 3px;
           }
 
           .android {
-            margin: -33px 0 -74px 14px;
+            margin: -32px 0 -74px 14px;
           }
         }
       }
@@ -53,7 +53,7 @@
         margin-top: -120px;
 
         .img-phone {
-         margin: 0 0 0 -47px;
+         margin: 0 0 0 -49px;
         }
       }
     }
@@ -76,20 +76,23 @@
       
       .icon-holder {
         .share {
-          margin: 25px 0 0 0;
+          margin: 22px 0 0 1px;
+
+          letter-spacing: 0.1px;
         }
 
         .share-icon {
-          margin: 46px 0 0 -2px;
+          margin: 46px 0 0 -1px;
         }
     
         .share-desc {
-          margin: 36px 30px 0 0;
+          margin: 34px 30px 0 1px;
           
           font-size: 15px;
           color: $white;
 
-          line-height: 1.7;
+          letter-spacing: -.1px;
+          line-height: 1.8;
         }
       
         .share-link {
@@ -104,20 +107,23 @@
         }
 
         .focus {
-          margin: 26px 0 0 0;
+          margin: 25px 0 0 1px;
+
+          letter-spacing: .24px;
         }
 
         .focus-icon {
-          margin: 41px 0 0 26px;
+          margin: 41px 0 0 27px;
         }
 
         .focus-desc {
-          margin: 17px 45px 0 25px;
+          margin: 15px 45px 0 27px;
 
           font-size: 15px;
           color: $white;
 
-          line-height: 1.7;
+          letter-spacing: -.09px;
+          line-height: 1.74;
         }
 
         .focus-link {
@@ -134,8 +140,9 @@
         }
 
         .contact {
-          margin: 20px 0 0 147px;
-
+          margin: 19px 0 0 147px;
+          
+          letter-spacing: -0.5px;
           line-height: 2.5;
         }
 
@@ -144,12 +151,14 @@
         }
 
         .contact-link {
-          margin: 0 0 0 93px;
-
+          margin: 0 0 0 92px;
+          
           font-size: 15px;
           color: $white;
-
+          
           border-bottom: 1px solid $white;
+          
+          letter-spacing: .3px;
         }
 
         .contact-link:hover {
@@ -184,6 +193,8 @@
 
     .footer-links {
       margin: 104px 0 0 210px;
+      
+      letter-spacing: -.3px;
     
       .list-inline-item .link {
         margin-right: 36px;

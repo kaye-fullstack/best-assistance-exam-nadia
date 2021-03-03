@@ -125,16 +125,16 @@
   .section-mission {
     background-color: $white;
 
-    .custom-container {
+    .container {
       padding-top: 193px;
     }
 
     .mission-pic {
-      margin: -1px -18px;
+      margin: 2px -17px;
     }
 
     .title {
-      margin: -15px -124px;
+      margin: -12px -125px;
 
       font-family: $text-opensans-semibold;
       font-size: 41px;
@@ -142,7 +142,7 @@
     }
 
     .description {
-      margin: 48px -124px -30px;
+      margin: 45px -127px -27px;
 
       font-family:$text-opensans-semibold;
       font-size: 19px;
@@ -152,13 +152,13 @@
     }
 
     .checklist-icon {
-      margin-right: 20px;
-      margin-left: 4px;
+      margin-right: 16px;
+      margin-left: 8px;
     }
 
     .btn-question {
       .btn-blue {
-        margin: 104px 0 0 -129px;
+        margin: 101px 0 0 -128px;
       }
   
       .why-best-assistance {
@@ -171,11 +171,11 @@
     }
     
     .history {
-      margin: -25px 0 0 0;
+      margin: -26px 0 0 1px;
     }
 
     .solution {
-      margin: -169px 0 0 68px;
+      margin: -167px 0 0 67px;
 
       z-index: 1;
     }
@@ -188,17 +188,18 @@
     }
     
     .title-solution {
-      margin: 0 -170px 0 0;
-
+      margin: 2px -170px 0 0;
+      
       font-family: $text-opensans-semibold;
       font-size: 38px;
       color: $white;
-
+      
+      letter-spacing: 1.7px;
       z-index: 2;
     }
 
     .icon-holder {
-      margin: 80px 0 0 42px;
+      margin: 83px 0 0 41px;
 
       list-style: none;
 
@@ -230,6 +231,8 @@
         font-family: $text-opensans-semibold;
         font-size: 18px;
         color: $white;
+
+        letter-spacing: .4px;
       }
 
       .icon-title:nth-child(2) {
@@ -241,16 +244,18 @@
       }
 
       .icon-title:nth-child(4) {
-        margin: 57px 0 0 2px;
+        margin: 57px 0 0 1px;
       }
 
       .icon-text {
         .icon-desc {
-          margin: -237px -130px 296px 2px;
+          margin: -236px -130px 294px 2px;
           
           font-family: $text-font-stack;
           font-size: 16px;
           color: $white;
+          
+          letter-spacing: .3px;
         }
       }
 
@@ -259,15 +264,17 @@
 
   .section-reading {
     .title {
-      margin: -52px 0 0 2px;
+      margin: -48px 0 0 -14px;
 
       font-family: $text-opensans-semibold;
       font-size: 41px;
       color: $black;
+
+      letter-spacing: .3px;
      }
   
     .description {
-      margin: 5px 0 0 2px;
+      margin: 4px 0 0 -13px;
 
       font-family: $text-opensans-semibold;
       font-size: 18px;
@@ -277,15 +284,16 @@
     }
 
     .filter {
-      margin: -20px 0 10px 1443px;
+      margin: -46px 0 23px 1251px;
+      width: 250px;
 
       font-family: $text-opensans-semibold;
       font-size: 16px;
     }
 
     .filter-by {
-      padding: 8px 0;
-      border: none;
+      padding: 16px 30px;
+      border-radius: 25px;
     }
 
     .news-filter, .health-filter, .success-filter, .case-filter {
@@ -496,7 +504,7 @@
     background-size: cover;
 
     .system-pic {
-      margin: 220px 0 0 19px;
+      margin: 220px 0 0 20px;
     }
 
     .title {
@@ -676,6 +684,11 @@
         font-size: 16px;
       }
 
+      .filter {
+        margin: -46px 0 23px 938px;
+        width: 232px;
+      }
+
       .btn-blue {
         margin: 45px 0 0;
       }
@@ -785,6 +798,11 @@
         margin: 5px 0 0 22px;
       }
 
+      .filter {
+        margin: -46px 0 23px 1112px;
+        width: 232px;
+      }
+
       .btn-blue {
         margin: 50px 0 0 22px;
       }
@@ -872,6 +890,12 @@
 
       .description {
         margin: 5px 0 0 22px;
+      }
+
+      .filter {
+        margin: -46px 0 23px 1174px;
+        width: 232px;
+
       }
 
       .btn-blue {
@@ -1071,8 +1095,8 @@
       }
 
       .filter {
-        margin: 0 0 5px 800px;
-        width: 0;
+        margin: 0 0 10px 731px;
+        width: 231px;
       }
 
       .btn-blue {
