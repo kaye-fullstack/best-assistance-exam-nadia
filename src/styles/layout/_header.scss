@@ -88,6 +88,16 @@
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1373px) {
+  .section-header {
+    .navbar-nav {
+      .nav-link {
+        padding: 12px 14px 0 6px;
+      }
+    }
+  }
+}
+
 @include respond-to(lg) {
   .section-header {
 

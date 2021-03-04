@@ -627,9 +627,9 @@
         
         .title-solution {
           margin: 0;
-          width: 400px;
+          width: 420px;
 
-          font-size: 34px;
+          font-size: 31px;
         }
 
         .icon-content {
@@ -654,7 +654,7 @@
           .icon-text {
             .icon-desc {
               margin: -248px 0 296px 2px;
-              width: 300px;
+              width: 320px;
 
               font-size: 14px;
             }
@@ -786,6 +786,10 @@
 
       .solution-content {
         margin: -485px 0 0 30px;
+
+        .title-solution {
+          font-size: 34px;
+        }
       }
     }
 
@@ -880,6 +884,10 @@
 
       .solution-content {
         margin: -485px 0 0 30px;
+
+        .title-solution {
+          font-size: 34px;
+        }
       }
     }
 
@@ -1026,9 +1034,9 @@
 
         .title-solution {
           margin: 0 -170px -25px 0;
-          width: 331px;
+          width: 330px;
 
-          font-size: 28px;
+          font-size: 24px;
         }
 
         .icon-holder {
@@ -1058,25 +1066,27 @@
           margin: -301px 0 0 50px;
 
           .icon-title {
+            margin: 65px 0 0 -4px;
+
             font-size: 15px;
           }
 
           .icon-title:nth-child(2) {
-            margin: 48px 0 0 2px;
+            margin: 48px 0 0 -4px;
           }
 
           .icon-title:nth-child(3) {
-            margin: 45px 0 0 2px;
+            margin: 45px 0 0 -4px;
           }
 
           .icon-title:nth-child(4) {
-            margin: 45px 0 0 2px;
+            margin: 45px 0 0 -4px;
           }
 
           .icon-text {
             .icon-desc {
-              margin: -204px -130px 253px 2px;
-              width: 280px;
+              margin: -204px -130px 253px -4px;
+              width: 290px;
               
               font-size: 13px;
             }
@@ -1196,13 +1206,41 @@
 
       .solution-content {
         margin: -362px 0 0 -34px;
+
+        .title-solution {
+          font-size: 24px;
+        }
+
+        .icon-content {
+          .icon-title {
+            margin: 65px 0 0 -4px;
+          }
+
+          .icon-title:nth-child(2) {
+            margin: 48px 0 0 -4px;
+          }
+
+          .icon-title:nth-child(3) {
+            margin: 45px 0 0 -4px;
+          }
+
+          .icon-title:nth-child(4) {
+            margin: 45px 0 0 -4px;
+          }
+          .icon-text {
+            .icon-desc {
+              margin: -204px -130px 253px -4px;
+              width: 289px;
+            }
+          }
+        }
       }
     }
 
     .section-reading {
       .filter {
-        margin:  0 0 5px 945px;
-        width: 0;
+        margin: 0 0 5px 871px;
+        width: 231px;
       }
     }
   }
@@ -1299,12 +1337,14 @@
 
         .title-solution {
           margin: 0 -380px 0 0;
+
+          font-size: 32px;
         }
       }
   
       .icon-content {
         .icon-title {
-          margin: 65px -155px 0 2px;
+          margin: 65px -175px 0 2px;
         }
   
         .icon-title:nth-child(3) {
@@ -1495,6 +1535,8 @@
 
         .title-solution {
           margin: 0;
+
+          font-size: 32px;
         }
       }
 
@@ -1658,7 +1700,8 @@
 
         .title-solution {
           margin: 0;
-          font-size: 34px;
+          
+          font-size: 28px;
         }
       }
 
@@ -1827,43 +1870,66 @@
       .solution {
         margin: 50px 0 0 0;
         width: 295px;
-        height: 580px;
+        height: 540px;
       }
 
       .solution-content {
-        margin: -480px 0 0 -12px;
+        margin: -440px 0 0 -12px;
 
         .title-solution {
           margin: 0 0 0 -5px;
           
-          font-size: 21px;
+          font-size: 18px;
+        }
+      }
+
+      .icon-holder {
+        .icon-solution:nth-child(1) {
+          width: 30px;
+        }
+
+        .icon-solution:nth-child(2) {
+          margin: -120px 0 0 -37px;
+          width: 30px;
+        }
+
+        .icon-solution:nth-child(3) {    
+          margin: 42px 0 0 -37px;
+          width: 30px;
+        }
+
+        .icon-solution:nth-child(4) {
+          margin: 196px 0 0 -37px;
+          width: 30px;
         }
       }
 
       .icon-content {
-        .icon-title {
-          margin: 65px 0 0 -15px;
+        margin: -337px 0 0 76px;
 
-          font-size: 17px;
+        .icon-title {
+          margin: 65px 0 0 -35px;
+
+          font-size: 15px;
         }
 
         .icon-title:nth-child(2) {
-          margin: 66px 0 0 -15px;
+          margin: 66px 0 0 -35px;
         }
 
         .icon-title:nth-child(3) {
-          margin: 58px 0 0 -15px;
+          margin: 58px 0 0 -35px;
         }
 
         .icon-title:nth-child(4) {
-          margin: 53px 0 0 -15px;
+          margin: 53px 0 0 -35px;
         }
 
         .icon-text {
           .icon-desc {
-            margin: -242px 71px 292px -15px;
-
-            font-size: 12px;
+            margin: -240px 0 309px -35px;
+            
+            font-size: 9px;
           }
         }
       }
@@ -2036,7 +2102,7 @@
       }
 
       .solution-content {
-        margin: -480px 0 0 0;
+        margin: -465px 0 0 0;
 
         .title-solution {
           margin: 0 0 0 -5px;
@@ -2050,12 +2116,12 @@
       }
 
       .icon-content {
-        margin: -350px 0 0 55px;
+         margin: -342px 0 0 55px;
 
         .icon-title {
           margin: 65px 0 0 -15px;
 
-          font-size: 17px;
+          font-size: 15px;
         }
 
         .icon-title:nth-child(2) {
@@ -2074,7 +2140,7 @@
           .icon-desc {
             margin: -242px 0 308px -15px;
 
-            font-size: 12px;
+            font-size: 11px;
           }
         }
       }
@@ -2247,12 +2313,12 @@
       }
 
       .solution-content {
-        margin: -480px 0 0 0;
+        margin: -480px 0 0 14px;
 
         .title-solution {
           margin: 0 0 0 -5px;
 
-          font-size: 21px;
+          font-size: 25px;
         }
       }
 
