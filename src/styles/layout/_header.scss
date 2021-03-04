@@ -215,3 +215,74 @@
     }
   }
 }
+
+.section-header-about {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  padding: 27px 0 31px;
+  height: 117px;
+  background: 0 0;
+
+  .best-logo {
+    margin: -5px 0 0 0;
+  }
+
+  .container {
+    margin-top: -25px;
+    z-index: 1;
+  }
+
+  .navbar {
+    padding: 19px 0;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      padding: 16px 42px 0 5px;
+    }
+  }
+
+  .nav-link {
+    font-family: $text-opensans-semibold;
+    font-size: 14px;
+    color: $black;
+  }
+
+  select.form-control:not([size]):not([multiple]) {
+    height: initial;
+  }
+
+  .form-control{
+    
+    padding: 14px 39px 13px 22px;
+    margin: 16px 0 0 -2px;
+
+
+    font-family: $text-opensans-semibold;
+    font-size: 14px;
+    color: $white;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: $bg-language;
+    background-image: url("../assets/images/arrow down.png");
+    background-position: 45px 20px;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 25px;
+
+    appearance: none;
+  }
+
+  .navbar-buttons {
+    list-style: none;
+  }
+
+  .navbar-toggler {
+    margin: 0 40px 0 0;
+  }
+}
