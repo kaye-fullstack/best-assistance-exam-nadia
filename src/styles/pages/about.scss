@@ -1,0 +1,13 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the about page.
+// -----------------------------------------------------------------------------
+
+.about {
+  .section-intro {
+    background-image: url("../assets/images/about bg-image.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
