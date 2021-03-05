@@ -8,6 +8,7 @@
   .section-intro {
     position: relative;
     top: 137px;
+
     height: 569px;
 
     background-image: url("../assets/images/about bg-image.jpg");
@@ -19,7 +20,7 @@
     margin-top: 265px;
 
     .title-do {
-      margin: 100px 0 0 247px;
+      margin: 98px 0 0 -5px;
       
       font-family: $text-opensans-bold;
       font-size: 42px;
@@ -29,7 +30,7 @@
     }
     
     .description-do {
-      margin: 12px -15px 0 249px;
+      margin: 10px -2px 0 -4px;
       
       font-size: 17px;
       color: $black;
@@ -38,12 +39,13 @@
     }
     
     .img-logo-do {
-      margin: 0 0 0 85px;
+      margin: 0 0 0 86px;
+
       border-radius: 210px;
     }
 
     .title-values {
-      margin: 119px 0 0 8px;
+      margin: 123px 0 0 8px;
       
       font-family: $text-opensans-bold;
       font-size: 42px;
@@ -51,24 +53,62 @@
       
       letter-spacing: -1.1px;
     }
-    
-    .description-values {
-      margin: 11px 223px 0 8px;
-     
-      font-size: 17px;
-      color: $black;
-
-      line-height: 1.5;
+  
+    .sub-holder {
+      .subtitle-values {
+        margin: 10px 0 0 8px;
+       
+        font-size: 17px;
+        color: $black;
+        font-weight: bold;
+  
+        line-height: 1.5;
+      }
+  
+      .subtitle-values:nth-child(2) {
+        margin: 157px 0 0 8px;
+      }
+  
+      .subtitle-values:nth-child(3) {
+        margin: 105px 0 0 9px;
+      }
+  
+      .subtitle-values:nth-child(4) {
+        margin: 157px 0 0 9px;
+      }
     }
-    
+
+    .desc-holder {
+      .description-values {
+        margin: -493px -5px 0 8px;
+       
+        font-size: 17px;
+        color: $black;
+  
+        line-height: 1.56;
+      }
+
+      .description-values:nth-child(2) {
+        margin: 52px -15px 0 8px;
+      }
+
+      .description-values:nth-child(3) {
+        margin: 52px -15px 0 8px;
+      }
+
+      .description-values:nth-child(4) {
+        margin: 52px -20px 0 9px;
+      }
+    }
+
     .img-logo-values {
-      margin: 253px 0 0 246px;
+      margin: 261px 0 0 -4px;
 
       border-radius: 210px;
     }
 
     .title-people {
-      margin: 213px 0 0 248px;
+      margin: 149px 0 0 -5px;
 
       font-family: $text-opensans-bold;
       font-size: 42px;
@@ -77,22 +117,32 @@
       letter-spacing: -1.1px;
     }
 
-    .description-people {
-      margin: 11px 83px 0 249px;
-     
-      font-size: 17px;
-      color: $black;
-
-      line-height: 1.5;
+    .text-holder {
+      .description-people {
+        margin: 10px 0 0 -4px;
+       
+        font-size: 17px;
+        color: $black;
+  
+        line-height: 1.56;
+      }
+  
+      .description-people:nth-child(2) {
+        margin: 26px 0 0 -4px;
+      }
+  
+      .description-people:nth-child(3) {
+        margin: 26px 0 0 -4px;
+      }
     }
     
     .img-logo-people {
-      margin: 249px 0 0 86px;
+      margin: 187px 0 0 86px;
       width: 410px;
     }
 
     .title-data {
-      margin: 311px 0 0 8px;
+      margin: 291px 0 0 8px;
 
       font-family: $text-opensans-bold;
       font-size: 42px;
@@ -102,18 +152,556 @@
     }
 
     .description-data {
-      margin: 11px 230px 0 8px;
+      margin: 10px -20px 0 8px;
      
       font-size: 17px;
       color: $black;
 
-      line-height: 1.5;
+      line-height: 1.56;
     }
 
     .img-logo-data {
-      margin: 172px 0 0 246px;
+      margin: 155px 0 0 -4px;
 
       border-radius: 206px;
+    }
+  }
+}
+
+@include respond-to(lg) {
+  .about {
+    .section-what-we-do {
+      .img-logo-do {
+        margin: 0;
+      }
+
+      .title-values {
+        margin: 123px 0 0 0;
+      }
+
+      .sub-holder {
+        .subtitle-values {
+          margin: 10px 0 0 0;
+        }
+
+        .subtitle-values:nth-child(2) {
+          margin: 157px 0 0 0;
+        }
+    
+        .subtitle-values:nth-child(3) {
+          margin: 105px 0 0 0;
+        }
+    
+        .subtitle-values:nth-child(4) {
+          margin: 157px 0 0 0;
+        }
+      }
+
+      .desc-holder {
+        .description-values {
+          margin: -493px 0 0 0;
+        }
+  
+        .description-values:nth-child(2) {
+          margin: 52px 0  0 0;
+        }
+  
+        .description-values:nth-child(3) {
+          margin: 52px 0 0 0;
+        }
+  
+        .description-values:nth-child(4) {
+          margin: 52px 0 0 0;
+        }
+      }
+
+      .img-logo-people {
+        margin: 187px 0 0 0;
+      }
+
+      .title-data {
+        margin: 291px 0 0 0;
+      }
+
+      .description-data {
+        margin: 10px 0 0 0;
+      }
+    }
+  }
+}
+
+@include respond-to(md) {
+  .about {
+    .section-what-we-do {
+      .img-logo-do {
+        margin: 0;
+        width: 360px;
+
+      }
+
+      .title-values {
+        margin: 123px 0 0 0;
+      }
+
+      .sub-holder {
+        .subtitle-values {
+          margin: 10px 0 0 0;
+        }
+
+        .subtitle-values:nth-child(2) {
+          margin: 157px 0 0 0;
+        }
+    
+        .subtitle-values:nth-child(3) {
+          margin: 105px 0 0 0;
+        }
+    
+        .subtitle-values:nth-child(4) {
+          margin: 157px 0 0 0;
+        }
+      }
+
+      .desc-holder {
+        .description-values {
+          margin: -493px 0 0 0;
+        }
+  
+        .description-values:nth-child(2) {
+          margin: 52px 0  0 0;
+        }
+  
+        .description-values:nth-child(3) {
+          margin: 52px 0 0 0;
+        }
+  
+        .description-values:nth-child(4) {
+          margin: 52px 0 0 0;
+        }
+      }
+
+      .img-logo-values {
+        width: 360px;
+      }
+
+      .img-logo-people {
+        margin: 187px 0 0 0;
+        width: 360px;
+      }
+
+      .title-data {
+        margin: 291px 0 0 0;
+      }
+
+      .description-data {
+        margin: 10px 0 0 0;
+      }
+
+      .img-logo-data {
+        margin: 155px 0 60px -4px;
+        width: 360px;
+      }
+    }
+  }
+}
+
+@include respond-to(sm) {
+  .about {
+    .section-what-we-do {
+      .title-do {
+        margin: 0 0 0 0;
+        
+        font-size: 28px;
+      }
+
+      .img-logo-do {
+        margin: -508px 0 0 0;
+        width: 250px;
+      }
+
+      .description-do {
+        margin: 280px -2px 0 0;
+
+        font-size: 16px;
+      }
+
+      .title-values {
+        margin: -303px 0 0 0;
+
+        font-size: 28px;
+      }
+
+      .img-logo-values {
+        margin: 50px 0 0 0;
+        width: 250px;
+      }
+
+      .sub-holder {
+        margin: 280px 0 0 0;
+
+        .subtitle-values {
+          margin: 10px 0 0 0;
+
+          font-size: 16px;
+        }
+    
+        .subtitle-values:nth-child(2) {
+          margin: 110px 0 0 0;
+        }
+    
+        .subtitle-values:nth-child(3) {
+          margin: 78px 0 0 0;
+        }
+    
+        .subtitle-values:nth-child(4) {
+          margin: 110px 0 0 0;
+        }
+      }
+
+      .desc-holder {
+        .description-values {
+          margin: -375px -5px 0 0;
+
+          font-size: 16px;
+        }
+  
+        .description-values:nth-child(2) {
+          margin: 40px 0 0 0;
+        }
+  
+        .description-values:nth-child(3) {
+          margin: 30px 0 0 0;
+        }
+  
+        .description-values:nth-child(4) {
+          margin: 38px 0 0 0;
+        }
+      }
+
+      .title-people {
+        margin: 28px 0 0 0;
+
+        font-size: 28px;
+      }
+
+      .img-logo-people {
+        margin: -915px 0 0 0;
+        
+        width: 300px;
+      }
+
+      .text-holder {
+        .description-people {
+          margin: 330px 0 0 0;
+
+          font-size: 16px;
+        }
+      }
+
+      .title-data {
+        margin: -305px 0 0 0;
+
+        font-size: 28px;
+      }
+
+      .img-logo-data {
+        margin: 55px 0 0 0;
+        width: 250px;
+      }
+
+      .description-data {
+        margin: 280px 0 100px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 597px) and (max-width: 628px) {
+  .about {
+    .section-what-we-do {
+      .desc-holder {
+        .description-values:nth-child(3) {
+          margin: 50px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 629px) and (max-width: 662px) {
+  .about {
+    .section-what-we-do {
+      .desc-holder {
+        .description-values:nth-child(3) {
+          margin: 50px 0 0 0;
+        }
+        .description-values:nth-child(4) {
+          margin: 62px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 663px) and (max-width: 767px) {
+  .about {
+    .section-what-we-do {
+      .desc-holder {
+        .description-values:nth-child(2) {
+          margin: 60px 0 0 0;
+        }
+        .description-values:nth-child(3) {
+          margin: 55px 0 0 0;
+        }
+        .description-values:nth-child(4) {
+          margin: 62px 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 695px) and (max-width: 767px) {
+  .about {
+    .section-what-we-do {
+      .img-logo-people {
+        margin: -810px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 695px) and (max-width: 767px) {
+  .about {
+    .section-what-we-do {
+      .img-logo-do {
+        margin: -450px 0 0 0;
+      }
+    }
+  }
+}
+
+@include respond-to(xs) {
+  .about {
+    .section-what-we-do {
+      .title-do {
+        margin: 0 0 0 0;
+        
+        font-size: 28px;
+      }
+
+      .img-logo-do {
+        margin: -700px 0 0 0;
+        width: 250px;
+      }
+
+      .description-do {
+        margin: 280px -2px 0 0;
+
+        font-size: 16px;
+      }
+
+      .title-values {
+        margin: -303px 0 0 0;
+
+        font-size: 28px;
+      }
+
+      .img-logo-values {
+        margin: 50px 0 0 0;
+        width: 250px;
+      }
+
+      .sub-holder {
+        margin: 280px 0 0 0;
+
+        .subtitle-values {
+          margin: 10px 0 0 0;
+
+          font-size: 16px;
+        }
+    
+        .subtitle-values:nth-child(2) {
+          margin: 180px 0 0 0;
+        }
+    
+        .subtitle-values:nth-child(3) {
+          margin: 100px 0 0 0;
+        }
+    
+        .subtitle-values:nth-child(4) {
+          margin: 180px 0 0 0;
+        }
+      }
+
+      .desc-holder {
+        .description-values {
+          margin: -540px -5px 0 0;
+
+          font-size: 16px;
+        }
+  
+        .description-values:nth-child(2) {
+          margin: 40px 0 0 0;
+        }
+  
+        .description-values:nth-child(3) {
+          margin: 30px 0 0 0;
+        }
+  
+        .description-values:nth-child(4) {
+          margin: 60px 0 0 0;
+        }
+      }
+
+      .title-people {
+        margin: 28px 0 0 0;
+
+        font-size: 28px;
+      }
+
+      .img-logo-people {
+        margin: -1085px 0 0 0;
+        width: 250px;
+
+        border-radius: 250px;
+      }
+
+      .text-holder {
+        margin: 110px 0 0 0;
+        .description-people {
+          margin: 215px 0 0 0;
+
+          font-size: 16px;
+        }
+      }
+
+      .title-data {
+        margin: -305px 0 0 0;
+
+        font-size: 28px;
+      }
+
+      .img-logo-data {
+        margin: 55px 0 0 0;
+        width: 250px;
+      }
+
+      .description-data {
+        margin: 280px 0 100px 0;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 341px) and (max-width: 352px) {
+  .about {
+    .section-what-we-do {
+      .img-logo-do {
+        margin: -645px 0 0 0;
+      }
+
+      .desc-holder {
+        .description-values:nth-child(4) {
+          margin: 60px 0 0 0;
+        }
+      }
+
+      .img-logo-people {
+        margin: -992px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 353px) and (max-width: 575px) {
+  .about {
+    .section-what-we-do {
+      .img-logo-do {
+        margin: -645px 0 0 0;
+      }
+
+      .desc-holder {
+        .description-values:nth-child(2) {
+          margin: 60px 0 0 0;
+        }
+
+        .description-values:nth-child(4) {
+          margin: 60px 0 0 0;
+        }
+      }
+
+      .img-logo-people {
+        margin: -992px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 388px) and (max-width: 575px) {
+  .about {
+    .section-what-we-do {
+      .img-logo-do {
+        margin: -580px 0 0 0;
+      }
+
+      .desc-holder {
+        .description-values:nth-child(4) {
+          margin: 60px 0 0 0;
+        }
+      }
+
+      .img-logo-people {
+        margin: -900px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 386px) and (max-width: 387px) { 
+  .about {
+    .section-what-we-do {
+      .img-logo-people {
+        margin: -900px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 423px) and (max-width: 575px) {
+  .about {
+    .section-what-we-do {
+      .desc-holder {
+        .description-values:nth-child(2) {
+          margin: 80px 0 0 0;
+        }
+
+        .description-values:nth-child(4) {
+          margin: 85px 0 0 0;
+        }
+      }
+      .img-logo-people {
+        margin: -850px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 440px) and (max-width: 575px) {
+  .about {
+    .section-what-we-do {
+      .desc-holder {
+        .description-values:nth-child(2) {
+          margin: 85px 0 0 0;
+        }
+
+        .description-values:nth-child(3) {
+          margin: 50px 0 0 0;
+        }
+      }
+      .img-logo-people {
+        margin: -850px 0 0 0;
+      }
     }
   }
 }
