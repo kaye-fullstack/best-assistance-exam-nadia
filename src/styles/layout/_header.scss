@@ -12,7 +12,11 @@
   z-index: 1;
   padding: 27px 0 31px;
   height: 117px;
-  background: 0 0;
+  background-color: transparent;
+
+  .active {
+    background-color: $white;
+  }
 
   .best-logo {
     margin: -5px 0 0 0;
