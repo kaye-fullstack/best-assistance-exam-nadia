@@ -54,10 +54,10 @@ AppName.Modules.ThemeModule = (function () {
 
   $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
-        $(".header").addClass("active");
+      $(".header").addClass("active");
     } 
     else {
-       $(".header").removeClass("active");
+      $(".header").removeClass("active");
     }
   });
 

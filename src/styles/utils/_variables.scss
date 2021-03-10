@@ -6,6 +6,7 @@
 
 /// Regular font family
 $font-opensans: 'Open Sans';
+$text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 /// @type List
 $text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
@@ -13,6 +14,13 @@ $text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Hel
 /// Code (monospace) font family
 /// @type List
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '../assets/' !default;
 
 /// Copy text color
 /// @type Color
@@ -82,12 +90,6 @@ $bg-media: #fffef9 !default;
 /// Why Us
 /// @type Color
 $why-us: #1974c2 !default;
-
-/// Relative or absolute URL where all assets are served from
-/// @type String
-/// @example scss - When using a CDN
-///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: '../assets/' !default;
 
 $font-opensans-semibold: 'OpenSans-Semibold';
 $text-opensans-semibold: $font-opensans-semibold, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;

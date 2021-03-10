@@ -6,7 +6,7 @@
 
 .section-header {
   position: fixed;
-  top: 0;
+  top: 22px;
   right: 0;
   left: 0;
   z-index: 1;
@@ -23,12 +23,15 @@
   }
 
   .container {
-    margin-top: -25px;
+    padding-bottom: 15px;
+    margin-top: -47px;
+
     z-index: 1;
   }
 
   .navbar {
-    padding: 19px 0;
+    padding: 52px 0 0 0;
+    margin: -50px 0 0 0;
   }
 
   .navbar-nav {
@@ -41,6 +44,11 @@
     font-family: $text-opensans-semibold;
     font-size: 14px;
     color: $black;
+  }
+
+  .nav-link:hover {
+    color: #0076b1;
+    text-decoration: none;
   }
 
   select.form-control:not([size]):not([multiple]) {
@@ -148,20 +156,22 @@
       background-position: 38px 17px;
     }
 
-    .navbar-buttons {
-      position: relative;
-      top: -5px;
-      left: -100px;
-      
-      list-style: none;
-    }
-  
     .navbar-toggler {
       position: absolute;
       top: 5px;
       right: 0;
   
-      margin: 0 40px 0 0;
+      margin: 24px 40px 0 0;
+
+      .icon-bar {
+        background-color: #2b6799;
+      }
+    }
+
+    .navbar-collapse {
+      padding-bottom: 15px;
+      
+      background-color: $bg-header;
     }
   }
 }
@@ -186,8 +196,18 @@
       background-position: 38px 17px;
     }
 
-    .navbar-buttons {
-      display: none;
+    .navbar-toggler {
+      margin: 30px 40px 0 0;
+
+      .icon-bar {
+        background-color: #2b6799;
+      }
+    }
+
+    .navbar-collapse {
+      padding-bottom: 15px;
+
+      background-color: $bg-header;
     }
   }
 }
@@ -213,8 +233,18 @@
       background-position: 38px 17px;
     }
 
-    .navbar-buttons {
-      display: none;
+    .navbar-toggler {
+      margin: 15px 40px 0 0;
+
+      .icon-bar {
+        background-color: #2b6799;
+      }
+    }
+
+    .navbar-collapse {
+      padding-bottom: 15px;
+      
+      background-color: $bg-header;
     }
   }
 }

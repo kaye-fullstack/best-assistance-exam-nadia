@@ -32,7 +32,7 @@
   <![endif]-->
 
   <header class="section-header">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg  header">
       <div class="container custom-container">
         <a href="#" class="navbar-brand"><img class="best-logo" src="assets\images\logo.fw.png" alt="Best Assistance"></a>
         <button class="navbar-toggler navbar-toggler-right" id="toggler"
@@ -50,16 +50,16 @@
             <li class="nav-item"><a href="#" class="nav-link">My Journal</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
           </ul>
+          <ul class="navbar-nav navbar-buttons flex-row">
+            <li class="nav-btn"><button class="btn-contact"><img class="icon-tel" src="assets\images\contactlogo.png" alt="tel"> +961 1 425 426</button></li>
+            <li class="nav-btn lang">
+              <select class="form-control language-select">
+                <option value="/en" selected>EN</option>
+                <option value="/ar">AR</option>
+              </select>
+            </li>
+          </ul>
         </div>
-        <ul class="navbar-nav navbar-buttons flex-row">
-          <li class="nav-btn"><button class="btn-contact"><img class="icon-tel" src="assets\images\contactlogo.png" alt="tel"> +961 1 425 426</button></li>
-          <li class="nav-btn lang">
-            <select class="form-control language-select">
-              <option value="/en" selected>EN</option>
-              <option value="/ar">AR</option>
-            </select>
-          </li>
-        </ul>
       </div>
     </nav>
   </header>
@@ -128,11 +128,11 @@
             </div>
           </div>
           <div class="row">
-            <a href="#" class="icon-desc">Our <br>mission</a>
-            <a href="#" class="icon-desc">Give us <br>your feedback</a>
-            <a href="#" class="icon-desc">Contact <br>us</a>
-            <div class="col-md-4">
-          </div>
+            <div class="col-md-4 desc-holder">
+              <p class="icon-desc"><a href="#" class="mission">Our <br>mission</a></p>
+              <p class="icon-desc"><a href="#" class="feedback">Give us <br>your feedback</a></p>
+              <p class="icon-desc"><a href="#" class="contact">Contact <br>us</a></p>
+            </div> 
           </div>
         </div>
       </div>
@@ -144,25 +144,20 @@
           <div class="col-md-4">
             <img class="mission-pic" src="assets\images\mission.png" alt="Mission Image">
           </div>
-          <div class="col-md-">
+          <div class="col-md-4">
             <p class="title">Our mission</p>
             <p class="description"><img class="checklist-icon" src="assets\images\checklist.png" alt="checklist">Cost Containment</p>
             <p class="description"><img class="checklist-icon" src="assets\images\checklist.png" alt="checklist">High Efficiency Results</p>
             <p class="description"><img class="checklist-icon" src="assets\images\checklist.png" alt="checklist">Flexibility & Customized Solutions</p>
             <p class="description"><img class="checklist-icon" src="assets\images\checklist.png" alt="checklist">Competetive Network Rates</p>
             <p class="description"><img class="checklist-icon" src="assets\images\checklist.png" alt="checklist">Full Transparenscy</p>
-            <a class="btn-question" href="#">
-              <img class="btn-blue" src="assets\images\why-best-assistance.png" alt="Button">  
-              <p class="why-best-assistance">Why Best Assistance</p>
-            </a>
-            <div class="history">
-              <button class="btn-history">Our History</button>
-            </div>
+            <button class="btn-blue">Why Best Assistance</button>
+            <button class="btn-history">Our History</button>
           </div>
           <div class="col-md-4">
             <img class="solution" src="assets\images\background solution.png" alt="Background Solution">
             <ul class="solution-content">
-              <p class="title-solution">We provide solutions for</p>
+              <li> <p class="title-solution">We provide solutions for</p></li>
               <li class="icon-holder">
                 <img class="icon-solution" src="assets\images\insured.png" alt="icon">
                 <img class="icon-solution" src="assets\images\guarantors.png" alt="icon">
@@ -240,7 +235,7 @@
           </div>
           <div class="row">
             <div class="col-md-2">
-              <a href="#"><img class="btn-blue" src="assets\images\my journal.png" alt="Button"><p class="my-journal">My Journal</p></a>
+              <button class="btn-journal">My Journal</button>
             </div>
           </div>
         </div>
@@ -260,6 +255,7 @@
             <p class="checklist-desc"><img class="checklist-logo" src="assets\images\checklist blue.png" alt="checklist">Superior performance monitoring</p>
             <p class="checklist-desc"><img class="checklist-logo" src="assets\images\checklist blue.png" alt="checklist">Timely Business reporting without IT imvolvement</p>
             <p class="checklist-desc"><img class="checklist-logo" src="assets\images\checklist blue.png" alt="checklist">Tailored to Customer's needs and data</p>
+            <button class="btn-system">Our Solution</button>
           </div>
         </div>
         <img class="design-leaf" src="assets\images\design-leaf.png" alt="Leaf">
