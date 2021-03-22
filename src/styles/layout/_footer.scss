@@ -6,7 +6,7 @@
 
 .section-footer {
   margin: 202px 0 0 0;
-  height: 713px;
+  height: 711px;
 
   background-image: url("../assets/images/best bg.png");
   background-position: top center;
@@ -205,6 +205,7 @@
     
       .list-inline-item .link:hover {
         color: #0076b1;
+        text-decoration: none;
       }
     }
     
@@ -236,11 +237,769 @@
   }
 }
 
-.section-footer-about {
-  
-  margin: 134px 0 0 0;
-  height: 271px;
+@media (min-width: 1200px) and (max-width: 1373px) {
+  .section-footer {
+    height: 685px;
+    
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            font-size: 38px;
+          }
+          
+          .description {
+            font-size: 15px;
+          }
 
+          .download-links {
+            .ios {
+              width: 160px;
+            }
+            
+            .android {
+              width: 160px;
+            }
+          }
+        }
+
+        .image-holder {
+          .img-phone {
+            width: 430px;
+          }
+        }
+      }
+
+      .footer-boxes {
+        .box:nth-child(2) {
+          height: 308px;
+        }
+        
+        .icon-holder {
+          .share-desc {
+            margin: 36px 82px 0 0;
+          }
+          
+          .contact-icon {
+            margin: 47px 0 0 25px;
+          }
+
+          .contact {
+            margin: 20px 0 26px 85px;
+          }
+          
+          .phone-number {
+            font-size: 32px;
+          }
+          
+          .contact-link {
+            margin: 0 0 0 25px;
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+      .items {
+        margin: -61px 0 0 -223px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1374px) and (max-width: 1435px) {
+  .section-footer {
+    margin: 235px 0 0 0;
+    
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            margin: -45px 0 29px 21px;
+          }
+          
+          .description {
+            margin: -19px 0 31px 20px;
+          }
+
+          .download-links {
+            margin: 0 0 0 20px;
+          }
+        }
+      }
+
+      .footer-boxes {
+        .icon-holder {
+          .share-icon {
+            margin: 46px 0 0 25px;
+          }
+          
+          .share-desc {
+            margin: 36px 30px 0 25px;
+          }
+
+          .share {
+            margin: 25px 0 0 25px;
+          }
+
+          .focus-desc {
+            margin: 17px 40px 0 25px;
+          }
+
+          .contact-icon {
+            margin: 41px 0 0 25px;
+          }
+
+          .contact {
+            margin: 20px 0 0 90px;
+          }
+
+          .contact-link {
+            margin: 0 0 0 36px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1436px) and (max-width: 1698px) {
+  .section-footer {
+    margin: 235px 0 0 0;
+
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            margin: -45px 0 29px 21px;
+          }
+
+          .description {
+            margin: -19px 0 31px 20px;
+          }
+
+          .download-links {
+            margin: 0 0 0 20px;
+          }
+        }
+      }
+
+      .footer-boxes {
+        .icon-holder {
+          .share-icon {
+            margin: 46px 0 0 25px;
+          }
+          
+          .share-desc {
+            margin: 36px 30px 0 25px;
+          }
+          
+          .share {
+            margin: 25px 0 0 25px;
+          }
+          
+          .focus-desc {
+            margin: 17px 40px 0 25px;
+          }
+
+          .contact-icon {
+            margin: 41px 0 0 25px;
+          }
+          
+          .contact {
+            margin: 20px 0 0 90px;
+          }
+          
+          .contact-link {
+            margin: 0 0 0 36px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to(lg) {
+  .section-footer {
+    margin: 245px 0 0 0;
+    height: 530px;
+
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            font-size: 34px;
+          }
+
+          .description {
+            margin: -19px -60px 31px 0;
+            
+            font-size: 14px;
+          }
+          
+          .download-links {
+            .ios {
+              width: 150px;
+            }
+
+            .android {
+              width: 150px;
+            }
+          }
+        }
+
+        .image-holder {
+          .img-phone {
+            margin: 0 0 0 5px;
+            width: 320px;
+          }
+        }
+      }
+      
+      .footer-boxes {
+        .box:nth-child(2) {
+          height: 280px;
+        }
+        
+        .icon-holder {
+          .share-desc {
+            margin: 36px 35px 0 0;
+            
+            font-size: 14px;
+          }
+
+          .focus-desc {
+            margin: 17px 15px 0 25px;
+            
+            font-size: 14px;
+          }
+
+          .contact-icon {
+            margin: 39px 0 0 21px;
+          }
+          
+          .contact {
+            margin: 30px 0 28px 79px;
+          }
+          
+          .phone-number {      
+            font-size: 28px;
+          }
+          
+          .contact-link {
+            margin: 0 0 0 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to(md) {
+  .section-footer {
+    margin: -1px 0 0 0;
+    height: 630px;
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            font-size: 38px;
+          }
+          
+          .description {
+            margin: -19px 120px 31px 0;
+            
+            font-size: 16px;
+          }
+
+          .download-links {
+            .ios {
+              margin: -90px 0 -75px 0;
+              width: 150px;
+            }
+            
+            .android {
+              margin: -90px 0 -75px 14px;
+              width: 150px;
+            }
+          }
+        }
+
+        .image-holder {
+          .img-phone {
+            width: 315px;
+          }
+        }
+      }
+
+      .footer-boxes {
+        .box:nth-child(2) {
+          border: none;
+        }
+
+        .icon-holder {
+          .share-desc {
+            margin: 36px 25px 0 0;
+
+            font-size: 14px;
+          }
+          
+          .focus-desc {
+            margin: 17px -10px 0 25px;
+
+            font-size: 14px;
+          }
+
+          .contact-icon {
+            margin: 45px 0 0 5px;
+          }
+          
+          .phone-number {
+            font-size: 20px;
+          }
+          
+          .contact {
+            margin: 41px 0 54px 70px;
+          }
+
+          .contact-link {
+            margin: 0 0 0 15px;
+          }
+        }
+      }
+    }
+
+    .koein {
+      display: block;
+
+      margin: 50px 0 0 0;
+      
+      font-size: 14px;
+      color: $white;
+    }
+    
+    .footer-bottom {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 899px) and (max-width: 991px) {
+  .section-footer {
+    .footer-top {
+      .footer-boxes {
+        .icon-holder {
+          .share-desc {
+            margin: 36px 11px 0 0;
+          }
+          .contact-icon {
+            margin: 45px 0 0 5px;
+          }
+    
+          .phone-number {
+            font-size: 20px;
+          }
+          
+          .contact {
+            margin: 41px 0 31px 70px;
+          }
+          
+          .contact-link {
+            margin: 0 0 0 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include respond-to(sm) {
+  .section-footer {
+    margin: -1px 0;
+    height: 1050px;
+
+    
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            margin: 0 0 25px 0;
+
+            font-size: 38px;
+          }
+
+          .description {
+            margin: -19px 254px 65px 0;
+            
+            font-size: 16px;
+          }
+
+          .download-links {
+            .ios {
+              margin: -150px 0 -75px 0;
+              width: 150px;
+            }
+
+            .android {
+              margin: -150px 0 -75px 14px;
+              width: 150px;
+            }
+          }
+        }
+
+        .image-holder {
+          .img-phone {
+            display: none;
+          }
+        }
+      }
+      
+      .footer-boxes {
+        .box:nth-child(2) {
+          border: none;
+        }
+
+        .icon-holder {
+          .share-icon {
+            margin: 40px 0 0 0;
+          }
+
+          .share-desc {          
+            margin: 36px 268px 0 0;
+          }
+
+          .share {
+            margin: 10px 0 0 0;
+          }
+          
+          .focus-icon {
+            margin: 40px 0 0 0;
+          }
+
+          .focus-desc {
+            margin: 36px 270px 0 0;
+          }
+
+          .focus {
+            margin: 10px 0 0 0;
+          }
+          
+          .focus-link {
+            margin: 0;
+          }
+          
+          .contact-icon {
+            margin: 40px 0 0 0;
+          }
+          
+          .phone-number {
+            margin: 0;
+          }
+
+          .contact {
+            margin: 5px 0 -15px 0;
+          }
+          
+          .contact-link {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .koein {
+      display: block;
+      margin: 40px 0 0 0;
+      
+      font-size: 14px;
+      color: $white;
+    }
+    
+    .footer-bottom {
+      display: none;
+    }
+  }
+}
+
+@include respond-to(xs) {
+  .section-footer {
+    margin: -1px 0;
+    height: 1126px;
+    
+    
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            margin: 0 0 25px 0;
+
+            font-size: 38px;
+          }
+          
+          .description {
+            margin: -19px 254px 65px 0;
+            
+            font-size: 16px;
+          }
+          
+          .download-links {
+            .ios {
+              margin: -150px 0 -75px 0;
+              width: 150px;
+            }
+
+            .android {
+              margin: -150px 0 -75px 14px;
+              width: 150px;
+            }
+          }
+        }
+
+        .image-holder {
+          .img-phone {
+            display: none;
+          }
+        }
+      }
+
+      .footer-boxes {
+        .box:nth-child(2) {
+          border: none;
+        }
+        
+        .icon-holder {
+          .share-icon {
+            margin: 40px 0 0 0;
+          }
+
+          .share-desc {          
+            margin: 36px 268px 0 0;
+          }
+          
+          .share {
+            margin: 10px 0 0 0;
+          }
+
+          .focus-icon {
+            margin: 40px 0 0 0;
+          }
+
+          .focus-desc {
+            margin: 36px 270px 0 0;
+          }
+
+          .focus {
+            margin: 10px 0 0 0;
+          }
+
+          .focus-link {
+            margin: 0;
+          }
+          
+          .contact-icon {
+            margin: 90px 0 0 0;
+          }
+
+          .phone-number {
+            margin: 0;
+          }
+          
+          .contact {
+            margin: 5px 0 -15px 0;
+          }
+          
+          .contact-link {
+            margin: 0;
+          }
+        }
+      }
+    }
+    
+    .koein {
+      display: block;
+      margin: 40px 0 0 0;
+      
+      font-size: 14px;
+      color: $white;
+    }
+    
+    .footer-bottom {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 391px) {
+  .section-footer {
+    height: 895px;
+
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            font-size: 28px;
+          }
+          
+          .description {
+            margin: -19px 0 65px 0;
+
+            font-size: 14px;
+          }
+
+          .download-links {
+            .ios {
+              width: 120px;
+            }
+
+            .android {
+              width: 120px;
+            }
+          }
+        }
+      }
+
+      .footer-boxes {
+        .icon-holder {
+          .share-icon {
+            width: 45px;
+          }
+
+          .share-desc {          
+            margin: 36px 68px 0 0;
+            
+            font-size: 12px;
+          }
+
+          .share-link {
+            font-size: 12px;
+          }
+
+          .focus-icon {
+            width: 45px;
+          }
+          
+          .focus-desc {
+            margin: 36px 70px 0 0;
+
+            font-size: 12px;
+          }
+
+          .focus-link {
+            margin: 0;
+
+            font-size: 12px;
+          }
+
+          .contact-icon {
+            margin: -20px 0 0 0;
+
+            width: 45px;
+          }
+
+          .phone-number {
+            font-size: 28px;
+          }
+
+          .contact-link {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .koein {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (min-width: 392px) and (max-width: 471px) {
+  .section-footer {
+    height: 895px;
+    
+    .footer-top {
+      .footer-app {
+        .content {
+          .title {
+            font-size: 28px;
+          }
+
+          .description {
+            margin: -19px 0 65px 0;
+
+            font-size: 14px;
+          }
+          
+          .download-links {
+            .ios {
+              width: 120px;
+            }
+            
+            .android {
+              width: 120px;
+            }
+          }
+        }
+      }
+
+      .footer-boxes {
+        .icon-holder {
+          .share-icon {
+            width: 45px;
+          }
+
+          .share-desc {          
+            margin: 36px 140px 0 0;
+
+            font-size: 12px;
+          }
+
+          .share-link {
+            font-size: 12px;
+          }
+
+          .focus-icon {
+            width: 45px;
+          }
+
+          .focus-desc {
+            margin: 36px 140px 0 0;
+
+            font-size: 12px;
+          }
+
+          .focus-link {
+            margin: 0;
+
+            font-size: 12px;
+          }
+
+          .contact-icon {
+            margin: -20px 0 0 0;
+
+            width: 45px;
+          }
+
+          .phone-number {
+            font-size: 28px;
+          }
+          
+          .contact-link {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .koein {
+      font-size: 12px;
+    }
+  }
+}
+
+.section-footer-about {
+  margin: 202px 0 0 0;
+  height: 263px;
 
   background-image: url("../assets/images/best bg.png");
   background-position: top center;
@@ -253,7 +1012,7 @@
       }
 
       .box:nth-child(2) {
-        height: 272px ;
+        height: 263px ;
 
         border-right: 1px solid $white;
         border-left: 1px solid $white;
@@ -394,6 +1153,7 @@
     
       .list-inline-item .link:hover {
         color: #0076b1;
+        text-decoration: none;
       }
     }
     
@@ -401,6 +1161,14 @@
       margin: 93px 0 0 0;
       
       text-align: right;
+
+      .fb-icon {
+        margin: 0 -4px 0 0;
+      }
+
+      .ig-icon {
+        margin: 0 -6px 0 0;
+      }
 
       .linkedin-icon {
         margin: 0 10px 0 0;
@@ -418,48 +1186,20 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1373px) {
-  .section-footer {
-    height: 685px;
-
+  .section-footer-about {
+    height: 275px;
+    
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            font-size: 38px;
-          }
-          
-          .description {
-            font-size: 15px;
-          }
-
-          .download-links {
-            .ios {
-              width: 160px;
-            }
-
-            .android {
-              width: 160px;
-            }
-          }
-        }
-
-        .image-holder {
-          .img-phone {
-            width: 430px;
-          }
-        }
-      }
-
       .footer-boxes {
         .box:nth-child(2) {
           height: 308px;
         }
-
+        
         .icon-holder {
           .share-desc {
             margin: 36px 82px 0 0;
           }
-
+          
           .contact-icon {
             margin: 47px 0 0 25px;
           }
@@ -467,7 +1207,7 @@
           .contact {
             margin: 20px 0 26px 85px;
           }
-
+          
           .phone-number {
             font-size: 32px;
           }
@@ -481,39 +1221,23 @@
 
     .footer-bottom {
       .items {
-        margin: -61px 0 0 -223px;
+        margin: -85px 0 0 -223px;
       }
     }
   }
 }
 
 @media (min-width: 1374px) and (max-width: 1435px) {
-  .section-footer {
+  .section-footer-about {
     margin: 235px 0 0 0;
-
+    
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            margin: -45px 0 29px 21px;
-          }
-
-          .description {
-            margin: -19px 0 31px 20px;
-          }
-
-          .download-links {
-            margin: 0 0 0 20px;
-          }
-        }
-      }
-
       .footer-boxes {
         .icon-holder {
           .share-icon {
             margin: 46px 0 0 25px;
           }
-
+          
           .share-desc {
             margin: 36px 30px 0 25px;
           }
@@ -544,40 +1268,24 @@
 }
 
 @media (min-width: 1436px) and (max-width: 1698px) {
-  .section-footer {
+  .section-footer-about {
     margin: 235px 0 0 0;
 
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            margin: -45px 0 29px 21px;
-          }
-
-          .description {
-            margin: -19px 0 31px 20px;
-          }
-
-          .download-links {
-            margin: 0 0 0 20px;
-          }
-        }
-      }
-
       .footer-boxes {
         .icon-holder {
           .share-icon {
             margin: 46px 0 0 25px;
           }
-
+          
           .share-desc {
             margin: 36px 30px 0 25px;
           }
-
+          
           .share {
             margin: 25px 0 0 25px;
           }
-
+          
           .focus-desc {
             margin: 17px 40px 0 25px;
           }
@@ -585,11 +1293,11 @@
           .contact-icon {
             margin: 41px 0 0 25px;
           }
-
+          
           .contact {
             margin: 20px 0 0 90px;
           }
-
+          
           .contact-link {
             margin: 0 0 0 36px;
           }
@@ -600,41 +1308,11 @@
 }
 
 @include respond-to(lg) {
-  .section-footer {
-    height: 530px;
+  .section-footer-about {
+    margin: 245px 0 0 0;
+    height: 280px;
 
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            font-size: 34px;
-          }
-
-          .description {
-            margin: -19px -60px 31px 0;
-
-            font-size: 14px;
-          }
-
-          .download-links {
-            .ios {
-              width: 150px;
-            }
-
-            .android {
-              width: 150px;
-            }
-          }
-        }
-
-        .image-holder {
-          .img-phone {
-            margin: 0 0 0 5px;
-            width: 320px;
-          }
-        }
-      }
-
       .footer-boxes {
         .box:nth-child(2) {
           height: 280px;
@@ -643,7 +1321,7 @@
         .icon-holder {
           .share-desc {
             margin: 36px 35px 0 0;
-
+            
             font-size: 14px;
           }
 
@@ -656,15 +1334,15 @@
           .contact-icon {
             margin: 39px 0 0 21px;
           }
-
+          
           .contact {
             margin: 30px 0 28px 79px;
           }
-
+          
           .phone-number {      
             font-size: 28px;
           }
-
+          
           .contact-link {
             margin: 0 0 0 25px;
           }
@@ -675,42 +1353,11 @@
 }
 
 @include respond-to(md) {
-  .section-footer {
+  .section-footer-about {
     margin: -1px 0 0 0;
-    height: 630px;
+    height: 375px;
+
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            font-size: 38px;
-          }
-
-          .description {
-            margin: -19px 120px 31px 0;
-
-            font-size: 16px;
-          }
-
-          .download-links {
-            .ios {
-              margin: -90px 0 -75px 0;
-              width: 150px;
-            }
-
-            .android {
-              margin: -90px 0 -75px 14px;
-              width: 150px;
-            }
-          }
-        }
-
-        .image-holder {
-          .img-phone {
-            width: 315px;
-          }
-        }
-      }
-
       .footer-boxes {
         .box:nth-child(2) {
           border: none;
@@ -722,7 +1369,7 @@
 
             font-size: 14px;
           }
-
+          
           .focus-desc {
             margin: 17px -10px 0 25px;
 
@@ -732,11 +1379,11 @@
           .contact-icon {
             margin: 45px 0 0 5px;
           }
-
+          
           .phone-number {
             font-size: 20px;
           }
-
+          
           .contact {
             margin: 41px 0 54px 70px;
           }
@@ -752,11 +1399,11 @@
       display: block;
 
       margin: 50px 0 0 0;
-
+      
       font-size: 14px;
       color: $white;
     }
-
+    
     .footer-bottom {
       display: none;
     }
@@ -764,7 +1411,7 @@
 }
 
 @media (min-width: 899px) and (max-width: 991px) {
-  .section-footer {
+  .section-footer-about {
     .footer-top {
       .footer-boxes {
         .icon-holder {
@@ -778,11 +1425,11 @@
           .phone-number {
             font-size: 20px;
           }
-    
+          
           .contact {
             margin: 41px 0 31px 70px;
           }
-    
+          
           .contact-link {
             margin: 0 0 0 15px;
           }
@@ -793,46 +1440,11 @@
 }
 
 @include respond-to(sm) {
-  .section-footer {
+  .section-footer-about {
     margin: -1px 0;
-    height: 1050px;
-
+    height: 780px;
 
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            margin: 0 0 25px 0;
-
-            font-size: 38px;
-          }
-
-          .description {
-            margin: -19px 254px 65px 0;
-
-            font-size: 16px;
-          }
-
-          .download-links {
-            .ios {
-              margin: -150px 0 -75px 0;
-              width: 150px;
-            }
-
-            .android {
-              margin: -150px 0 -75px 14px;
-              width: 150px;
-            }
-          }
-        }
-
-        .image-holder {
-          .img-phone {
-            display: none;
-          }
-        }
-      }
-
       .footer-boxes {
         .box:nth-child(2) {
           border: none;
@@ -850,7 +1462,7 @@
           .share {
             margin: 10px 0 0 0;
           }
-
+          
           .focus-icon {
             margin: 40px 0 0 0;
           }
@@ -862,15 +1474,15 @@
           .focus {
             margin: 10px 0 0 0;
           }
-
+          
           .focus-link {
             margin: 0;
           }
-
+          
           .contact-icon {
             margin: 40px 0 0 0;
           }
-
+          
           .phone-number {
             margin: 0;
           }
@@ -889,11 +1501,11 @@
     .koein {
       display: block;
       margin: 40px 0 0 0;
-
+      
       font-size: 14px;
       color: $white;
     }
-
+    
     .footer-bottom {
       display: none;
     }
@@ -901,51 +1513,16 @@
 }
 
 @include respond-to(xs) {
-  .section-footer {
+  .section-footer-about {
     margin: -1px 0;
-    height: 1126px;
-
-
+    height: 880px;
+    
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            margin: 0 0 25px 0;
-
-            font-size: 38px;
-          }
-
-          .description {
-            margin: -19px 254px 65px 0;
-
-            font-size: 16px;
-          }
-
-          .download-links {
-            .ios {
-              margin: -150px 0 -75px 0;
-              width: 150px;
-            }
-
-            .android {
-              margin: -150px 0 -75px 14px;
-              width: 150px;
-            }
-          }
-        }
-
-        .image-holder {
-          .img-phone {
-            display: none;
-          }
-        }
-      }
-
       .footer-boxes {
         .box:nth-child(2) {
           border: none;
         }
-
+        
         .icon-holder {
           .share-icon {
             margin: 40px 0 0 0;
@@ -954,7 +1531,7 @@
           .share-desc {          
             margin: 36px 268px 0 0;
           }
-
+          
           .share {
             margin: 10px 0 0 0;
           }
@@ -974,7 +1551,7 @@
           .focus-link {
             margin: 0;
           }
-
+          
           .contact-icon {
             margin: 90px 0 0 0;
           }
@@ -982,7 +1559,7 @@
           .phone-number {
             margin: 0;
           }
-
+          
           .contact {
             margin: 5px 0 -15px 0;
           }
@@ -993,15 +1570,15 @@
         }
       }
     }
-
+    
     .koein {
       display: block;
       margin: 40px 0 0 0;
-
+      
       font-size: 14px;
       color: $white;
     }
-
+    
     .footer-bottom {
       display: none;
     }
@@ -1009,34 +1586,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 391px) {
-  .section-footer {
-    height: 895px;
+  .section-footer-about {
+    height: 670px;
 
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            font-size: 28px;
-          }
-
-          .description {
-            margin: -19px 0 65px 0;
-
-            font-size: 14px;
-          }
-
-          .download-links {
-            .ios {
-              width: 120px;
-            }
-
-            .android {
-              width: 120px;
-            }
-          }
-        }
-      }
-
       .footer-boxes {
         .icon-holder {
           .share-icon {
@@ -1045,7 +1598,7 @@
 
           .share-desc {          
             margin: 36px 68px 0 0;
-
+            
             font-size: 12px;
           }
 
@@ -1056,7 +1609,7 @@
           .focus-icon {
             width: 45px;
           }
-
+          
           .focus-desc {
             margin: 36px 70px 0 0;
 
@@ -1093,34 +1646,10 @@
 }
 
 @media (min-width: 392px) and (max-width: 471px) {
-  .section-footer {
-    height: 895px;
-
+  .section-footer-about {
+    height: 665px;
+    
     .footer-top {
-      .footer-app {
-        .content {
-          .title {
-            font-size: 28px;
-          }
-
-          .description {
-            margin: -19px 0 65px 0;
-
-            font-size: 14px;
-          }
-
-          .download-links {
-            .ios {
-              width: 120px;
-            }
-
-            .android {
-              width: 120px;
-            }
-          }
-        }
-      }
-
       .footer-boxes {
         .icon-holder {
           .share-icon {
@@ -1162,7 +1691,7 @@
           .phone-number {
             font-size: 28px;
           }
-
+          
           .contact-link {
             font-size: 12px;
           }

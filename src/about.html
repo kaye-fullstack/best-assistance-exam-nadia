@@ -31,7 +31,7 @@
     </div>
   <![endif]-->
 
-  <header class="section-header-about">
+  <header class="section-header">
     <nav class="navbar navbar-expand-lg">
       <div class="container custom-container">
         <a href="#" class="navbar-brand"><img class="best-logo" src="assets\images\logo.fw.png" alt="Best Assistance"></a>
@@ -50,28 +50,84 @@
             <li class="nav-item"><a href="#" class="nav-link">My Journal</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
           </ul>
+          <ul class="navbar-nav navbar-buttons flex-row">
+            <li class="nav-btn"><button class="btn-contact"><img class="icon-tel" src="assets\images\contactlogo.png" alt="tel"> +961 1 425 426</button></li>
+            <li class="nav-btn lang">
+              <select class="form-control language-select">
+                <option value="/en" selected>EN</option>
+                <option value="/ar">AR</option>
+              </select>
+            </li>
+          </ul>
         </div>
-        <ul class="navbar-nav navbar-buttons flex-row">
-          <li class="nav-btn"><button class="btn-contact"><img class="icon-tel" src="assets\images\contactlogo.png" alt="tel"> +961 1 425 426</button></li>
-          <li class="nav-btn lang">
-            <select class="form-control language-select">
-              <option value="/en" selected>EN</option>
-              <option value="/ar">AR</option>
-            </select>
-          </li>
-        </ul>
       </div>
     </nav>
   </header>
 
   <main class="about">
+    <div class="media-scroll">
+      <ul class="media-side-scroll">
+        <li>
+          <a href="linkedin.com" class="social-icon-links">
+          <img class="media-side-icons" src="assets/images/linkedin.fw.png" alt="linkedin">
+          </a>
+        </li>
+        <li>
+          <a href="share.com" class="social-icon-links">
+          <img class="media-side-icons" src="assets/images/share.fw.png" alt="share">
+          </a>
+        </li>
+        <li>
+          <a href="phone.com" class="phone">
+          <img class="media-side-icons" src="assets/images/phone.fw.png" alt="phone">
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <div class="section-intro">
-      <div class="container custom-container">
+      <div class="container custom-container-about intro-about">
+        <div class="navs-wrapper">
+          <div class="nav custom-nav justify-content-center">
+            <div class="nav-item arrow-right-parent">
+              <a class="nav-link arrow-right">
+                <span class="title">About Us</span>
+              </a>
+            </div>
+            <div class="screen">
+              <div class="next">
+                <i class="fa fa-angle-right"></i>
+              </div>
+              <div class="prev">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="nav-item swiper-slide">
+                  <a class="nav-link active"> Why Us </a>
+                </div>
+                <div class="nav-item swiper-slide">
+                  <a class="nav-link" href="#"> Our Vision & Mission </a>
+                </div>
+                <div class="nav-item swiper-slide">
+                  <a class="nav-link" href="#"> Our History </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="breadcrumb-wrapper custom-breadcrumb d-md-block">
+        <ol class="breadcrumb breadcrumb-nav">
+          <li class="breadcrumb-item"><a href="#" class="item">Home<i class="fa fa-angle-right"></i></a></li>
+          <li class="breadcrumb-item disabled"><a href="#" class="item">About us<i class="fa fa-angle-right"></i></a></li>
+          <li class="breadcrumb-item disabled"><a href="#" class="active">Why Us</a></li>
+        </ol>
       </div>
     </div>
 
     <div class="section-what-we-do">
-      <div class="container custom-container">
+      <div class="container custom-container-about">
+        <img class="upper-leaf" src="assets\images\leaf about.png">
         <div class="row">
           <div class="col-md-6">
             <p class="title-do">What we do</p>
@@ -80,43 +136,50 @@
           <div class="col-md-6">
             <img class="img-logo-do" src= "assets\images\what-we-do.jpg"> 
           </div>
-
+        </div>
+        <div class="row">
           <div class="col-md-6">
             <img class="img-logo-values" src= "assets\images\our-values.jpg"> 
           </div>
           <div class="col-md-6">
             <p class="title-values">Our Values</p>
-            <p class="description-values">
-              We earn loyalty, we don’t expect it.<br>
-              Because our clients are our first priority, and because we genuinely have their best interests at heart, we know how to listen, find solutions proactively and be responsive to their needs. We consider this our duty and part of the long-term commitment.
-            </p>
-            <p class="description-values"> 
-              We think about what matters.<br>
-              In a world full of cautions, terms and conditions, restrictions and small print, we look for the best solution for each client in an effort to meet every need.
-            </p>
-            <p class="description-values">   
-              We are as good as our word.<br>
-              Because we employ the highest professional ethics in everything we do, we have earned a reputation for being an organization rooted in integrity. We don’t over promise, oversell or under deliver, which means we are as good as our word.
-            </p>
-            <p class="description-values"> 
-              We are bold.<br>
-              We are enterprising, resolute, and a determined partner who brings an inventive and resourceful approach to getting things done.
-            </p>
+            <div class="sub-holder">
+              <p class="subtitle-values">We earn loyalty, we don’t expect it.</p>
+              <p class="subtitle-values">We think about what matters.</p>
+              <p class="subtitle-values">We are as good as our word.</p>
+              <p class="subtitle-values"> We are bold.</p>
+            </div>
+            <div class="desc-holder">
+              <p class="description-values">
+                Because our clients are our first priority, and because we genuinely have their best interests at heart, we know how to listen, find solutions proactively and be responsive to their needs. We consider this our duty and part of the long-term commitment.
+              </p>
+              <p class="description-values"> 
+                In a world full of cautions, terms and conditions, restrictions and small print, we look for the best solution for each client in an effort to meet every need.
+              </p>
+              <p class="description-values">
+                Because we employ the highest professional ethics in everything we do, we have earned a reputation for being an organization rooted in integrity. We don’t over promise, oversell or under deliver, which means we are as good as our word.
+              </p>
+              <p class="description-values">
+                We are enterprising, resolute, and a determined partner who brings an inventive and resourceful approach to getting things done.
+              </p>
+            </div>
           </div>
-
+        </div>
+        <div class="row">
           <div class="col-md-6">
             <p class="title-people">Our people</p>
-            <p class="description-people">
-              Right across Best Assistance, ethics and client service are drilled-in to every single team member. 
-
-              We are always on hand to serve and guide our diverse clientele through our solid team that is expert in Pre-Authorization, Claims Processing, Production and Underwriting, Customer Service, Providers agreements, as well as related insurance-specific services. Noting that over 65% of our team are medical and para-medical.
-              
-              Our people are our great strength- they are skilled professionals committed to excellence.</p>
+            <div class="text-holder">
+              <p class="description-people">
+              Right across Best Assistance, ethics and client service are drilled-in to every single team member.</p>
+              <p class="description-people">  We are always on hand to serve and guide our diverse clientele through our solid team that is expert in Pre-Authorization, Claims Processing, Production and Underwriting, Customer Service, Providers agreements, as well as related insurance-specific services. Noting that over 65% of our team are medical and para-medical.</p>
+              <p class="description-people"> Our people are our great strength- they are skilled professionals committed to excellence.</p>
+            </div>
           </div>
           <div class="col-md-6">
             <img class="img-logo-people" src= "assets\images\our-People.jpg"> 
           </div>
-
+        </div>
+        <div class="row">
           <div class="col-md-6">
             <img class="img-logo-data" src= "assets\images\data-confidentiality.jpg"> 
           </div>
@@ -125,6 +188,7 @@
             <p class="description-data">All data – Especially that of our customers – is subject to highly advanced security and confidentiality controls. </p>
           </div>
         </div>
+        <img class="lower-leaf" src="assets\images\leaf aboutt.png">
       </div>
     </div>
   </main>
