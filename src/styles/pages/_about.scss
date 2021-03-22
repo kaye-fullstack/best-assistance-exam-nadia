@@ -30,7 +30,7 @@
 
   .section-intro {
     position: relative;
-    top: 137px;
+    top: 110px;
 
     height: 569px;
 
@@ -52,17 +52,21 @@
     .arrow-right {
       padding: 14px 32px;
       background: $sea-blue;
+
       :after {
         content: "";
         position: absolute;
         top: 0;
         left: unset;
         right: -23px;
+
         width: 0;
         height: 0;
+
         border-top: 26.5px solid transparent;
         border-bottom: 26.5px solid transparent;
         border-left: 24px solid $sea-blue;
+
         z-index: 2;
       }
     }
@@ -70,6 +74,7 @@
     .title {
       padding-left: 0;
       margin-left: 0;
+
       font-family: $font-opensans-bold;
       color: $white;
       letter-spacing: .6px;
@@ -77,6 +82,7 @@
 
     .active {
       color: $ink;
+
       background: $white;
     }
 
@@ -86,6 +92,7 @@
 
     .swiper-slide {
       text-align: center;
+
       .nav-link {
         padding-top: 14px;
         padding-left: 13px;
@@ -96,8 +103,10 @@
 
       &:first-child {
         width: 187px;
+
         .nav-link {
           color: $ink;
+
           background-color: $white;
         }
       }
@@ -105,15 +114,18 @@
         width: 296px;
         .nav-link {
           color: $white;
+
           background-color: $ink;
           opacity: .8;
         }
       }
       &:nth-child(3) {
         width: 221px;
+
         .nav-link {
-          background-color: $ink;
           color: $white;
+
+          background-color: $ink;
           opacity: 0.8;
         }
       }
@@ -123,28 +135,38 @@
       position: absolute;
       top: 5px;
       right: 0px;
+
       width: 24px;
-      z-index: 2;
+
+      display: none;
+
       font-size: 22px;
       color: #333;
-      cursor: pointer;
-      display: none;
-      background: #fff;
       text-align: center;
+
+      background: #fff;
+
+      z-index: 2;
+
+      cursor: pointer;
     }
     
     .prev {
       position: absolute;
       top: 5px;
       left: 0px;
+
+      display: none;
       width: 24px;
-      z-index: 2;
+
       font-size: 22px;
       color: #333;
-      cursor: pointer;
-      display: none;
-      background: #fff;
       text-align: center;
+      
+      background: #fff;
+      z-index: 2;
+
+      cursor: pointer;
     }
 
     .custom-breadcrumb {
@@ -216,7 +238,7 @@
     }
 
     .title-do {
-      margin: 98px 0 0 -5px;
+      margin: 98px 0 0 247px;
       
       font-family: $text-opensans-bold;
       font-size: 42px;
@@ -226,7 +248,7 @@
     }
     
     .description-do {
-      margin: 10px -2px 0 -4px;
+      margin: 10px -2px 0 247px;
       
       font-size: 17px;
       color: $black;
@@ -253,60 +275,64 @@
   
     .sub-holder {
       .subtitle-values {
-        margin: 10px 0 0 8px;
-       
         font-size: 17px;
         color: $black;
         font-weight: bold;
   
         line-height: 1.5;
-      }
-  
-      .subtitle-values:nth-child(2) {
-        margin: 157px 0 0 8px;
-      }
-  
-      .subtitle-values:nth-child(3) {
-        margin: 105px 0 0 9px;
-      }
-  
-      .subtitle-values:nth-child(4) {
-        margin: 157px 0 0 9px;
+
+        &:first-child {
+          margin: 10px 0 0 8px;
+        }
+       
+        &:nth-child(2) {
+          margin: 157px 0 0 8px;
+        }
+    
+        &:nth-child(3) {
+          margin: 105px 0 0 9px;
+        }
+    
+        &:nth-child(4) {
+          margin: 157px 0 0 9px;
+        }
       }
     }
 
     .desc-holder {
       .description-values {
-        margin: -493px -5px 0 8px;
-       
         font-size: 17px;
         color: $black;
   
         line-height: 1.56;
-      }
 
-      .description-values:nth-child(2) {
-        margin: 52px -15px 0 8px;
-      }
-
-      .description-values:nth-child(3) {
-        margin: 52px -15px 0 8px;
-      }
-
-      .description-values:nth-child(4) {
-        margin: 52px -20px 0 9px;
+        &:first-child {
+          margin: -493px 209px 0 8px;
+        }
+       
+        &:nth-child(2) {
+          margin: 52px 219px 0 8px;
+        }
+  
+        &:nth-child(3) {
+          margin: 52px 223px 0 8px;
+        }
+  
+        &:nth-child(4) {
+          margin: 52px 190px 0 9px;
+        }
       }
     }
 
     .img-logo-values {
-      margin: 261px 0 0 -4px;
+      margin: 261px 0 0 247px;
 
       border-right: 8px solid orange;
       border-radius: 210px;
     }
 
     .title-people {
-      margin: 149px 0 0 -5px;
+      margin: 149px 0 0 247px;
 
       font-family: $text-opensans-bold;
       font-size: 42px;
@@ -317,7 +343,7 @@
 
     .text-holder {
       .description-people {
-        margin: 10px 0 0 -4px;
+        margin: 10px 0 0 247px;
        
         font-size: 17px;
         color: $black;
@@ -326,11 +352,11 @@
       }
   
       .description-people:nth-child(2) {
-        margin: 26px 0 0 -4px;
+        margin: 26px 0 0 247px;
       }
   
       .description-people:nth-child(3) {
-        margin: 26px 0 0 -4px;
+        margin: 26px 0 0 247px;
       }
     }
     
@@ -353,7 +379,7 @@
     }
 
     .description-data {
-      margin: 10px -20px 0 8px;
+      margin: 10px 154px 0 8px;
      
       font-size: 17px;
       color: $black;
@@ -362,7 +388,7 @@
     }
 
     .img-logo-data {
-      margin: 155px 0 0 -4px;
+      margin: 155px 0 0 247px;
 
       border-right: 8px solid orange;
       border-radius: 206px;
