@@ -574,6 +574,10 @@
           padding-right: 564px;
         }
       }
+
+      .desc-holder {
+        margin: 0 0 0 60px;
+      }
   
       .swiper-pagination {
         position: relative;
@@ -734,6 +738,10 @@
         &:nth-child(3) {
           padding-right: 626pxpx;
         }
+      }
+
+      .desc-holder {
+        margin: 0 0 0 34px;
       }
     }
 
@@ -1382,6 +1390,24 @@
         }
       }
     }
+
+    .section-system {
+      .title {
+        margin: 635px 0 0 -340px;
+      }
+  
+      .title-blue {
+        margin: -13px 0 0 -340px;
+      }
+  
+      .description {
+        margin: 5px 0 0 -340px;
+      }
+  
+      .checklist-desc {
+        margin: 25px 0 -15px -340px;
+      }
+    }
   }
 }
 
@@ -1608,6 +1634,8 @@
     }
 
     .section-intro {
+      height: 750px;
+
       .text-holder {
         &:first-child {
           padding-right: 0;
@@ -1757,6 +1785,9 @@
 @media (min-width: 320px) and (max-width: 391px) {
   .home {
     .section-intro {
+      padding: 230px 0 0;
+      height: 520px;
+
       .text-holder {
         &:first-child {
           padding-right: 11px;
@@ -1777,6 +1808,10 @@
         }
       }
 
+      .desc-holder {
+        margin: 0 0 0 150px;
+      }
+
       .icon-holder {
         .icon {
           margin: 80px 34px 3px -1px;
@@ -1789,15 +1824,15 @@
           text-align: center;
           
           &:first-child {
-            margin: 8px 17px;
+            margin: 10px 0 0 -380px;
           }
     
           &:nth-child(2) {
-            margin: 10px 21px;
+            margin: -32px 0 0 -185px;
           }
     
-         &:nth-child(3) {
-            margin: 10px 15px;
+          &:nth-child(3) {
+            margin: -33px 0 0 15px;
           }
         }
   
@@ -1979,6 +2014,9 @@
 @media (min-width: 392px) and (max-width: 471px) {
   .home {
     .section-intro {
+      padding: 230px 0 0; 
+      height: 520px;
+
       .text-holder {
         &:first-child {
           padding-right: 83px;
@@ -1999,6 +2037,10 @@
         }
       }
 
+      .desc-holder {
+        margin: 0 0 0 75px;
+      }
+
       .icon-holder {
         .icon {
           margin: 80px 34px 3px -1px;
@@ -2011,15 +2053,15 @@
           text-align: center;
           
           &:first-child {
-            margin: 8px 17px;
+            margin: 10px 0 0 -380px;
           }
     
           &:nth-child(2) {
-            margin: 10px 21px;
+            margin: -32px 0 0 -185px;
           }
     
           &:nth-child(3) {
-            margin: 10px 15px;
+            margin: -33px 0 0 15px;
           }
         }
       }
@@ -2182,6 +2224,8 @@
 @media (min-width: 472px) and (max-width: 520px) {
   .home {
     .section-intro {
+      padding: 215px 0 0;
+
       .text-holder {
         font-size: 26px;
 
@@ -2211,17 +2255,17 @@
           font-size: 12px;
   
           &:first-child {
-            margin: 8px 17px;
+            margin: 10px 0 0 -380px;
           }
     
           &:nth-child(2) {
-            margin: 10px 21px;
+            margin: -32px 0 0 -185px;
           }
     
           &:nth-child(3) {
-            margin: 10px 15px;
+            margin: -33px 0 0 15px;
           }
-      }
+        }
       }
     }
 
