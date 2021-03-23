@@ -6,10 +6,12 @@
 
 .section-footer {
   margin: 202px 0 0 0;
+
   .footer-top {
     background-image: url("../assets/images/best bg.png");
     background-position: top center;
     background-size: cover;
+
     .footer-app {
       border-bottom: 1px solid $white;
 
@@ -198,12 +200,14 @@
     
       .list-inline-item .link:hover {
         color: #0076b1;
+        
         text-decoration: none;
       }
     }
     
     .footer-right-links {
       margin: 0 10px 0 0;
+      
       text-align: right;
 
       .fb-icon {

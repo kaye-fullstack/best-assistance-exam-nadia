@@ -14,12 +14,12 @@
       padding-top: 9px;
       padding-right: 22px;
       padding-left: 22px;
-
-      list-style: none;
-
+      
       background-color: $bg-media;
-
+      
+      list-style: none;
       line-height: 2.5;
+      
       z-index: 2;
     }
 
@@ -51,6 +51,7 @@
 
     .arrow-right {
       padding: 14px 32px;
+
       background: $sea-blue;
 
       :after {
@@ -77,6 +78,7 @@
 
       font-family: $font-opensans-bold;
       color: $white;
+
       letter-spacing: .6px;
     }
 
@@ -112,10 +114,12 @@
       }
       &:nth-child(2) {
         width: 296px;
+
         .nav-link {
           color: $white;
 
           background-color: $ink;
+
           opacity: .8;
         }
       }
@@ -126,6 +130,7 @@
           color: $white;
 
           background-color: $ink;
+
           opacity: 0.8;
         }
       }
@@ -136,15 +141,14 @@
       top: 5px;
       right: 0px;
 
-      width: 24px;
-
       display: none;
+      width: 24px;
 
       font-size: 22px;
       color: #333;
       text-align: center;
 
-      background: #fff;
+      background: $white;
 
       z-index: 2;
 
@@ -164,6 +168,7 @@
       text-align: center;
       
       background: #fff;
+
       z-index: 2;
 
       cursor: pointer;
@@ -280,36 +285,49 @@
   
         line-height: 1.55;
 
-        &:first-child {
-          margin: 10px 0 0 9px;
-        }
-       
-        &:nth-child(2) {
+        
+        &:nth-of-type(2) {
           margin: 3px 217px 0 8px;
         }
-    
-        &:nth-child(3) {
-          margin: 26px 0 0 9px;
-        }
-    
-        &:nth-child(4) {
+        
+        
+        &:nth-of-type(4) {
           margin: 0 219px 0 8px;
         }
-
-        &:nth-child(5) {
-          margin: 25px 217px 0 8px;
-        }
-    
-        &:nth-child(6) {
+        
+        
+        &:nth-of-type(6) {
           margin: 0 223px 0 8px;
         }
-    
-        &:nth-child(7) {
-          margin: 25px 0 0 8px;
+        
+        &:nth-of-type(8) {
+          margin: 0 191px 0 8px;
+        }
+      }
+      
+      .title {
+        &:nth-of-type(1) {
+          margin: 10px 0 0 9px;
+  
+          font-weight: bold;
         }
 
-        &:nth-child(8) {
-          margin: 0 191px 0 8px;
+        &:nth-of-type(3) {
+          margin: 26px 0 0 9px;
+  
+          font-weight: bold;
+        }
+        
+        &:nth-of-type(5) {
+          margin: 25px 217px 0 8px;
+          
+          font-weight: bold;
+        }
+    
+        &:nth-of-type(7) {
+          margin: 25px 0 0 8px;
+          
+          font-weight: bold;
         }
       }
     }
@@ -333,20 +351,22 @@
 
     .text-holder {
       .description-people {
-        margin: 10px 0 0 247px;
-       
         font-size: 17px;
         color: $black;
   
         line-height: 1.56;
-      }
-  
-      .description-people:nth-child(2) {
-        margin: 26px 0 0 247px;
-      }
-  
-      .description-people:nth-child(3) {
-        margin: 26px 0 0 247px;
+
+        &:first-child {
+          margin: 10px 0 0 247px;
+        }
+        
+        &:nth-child(2) {
+          margin: 26px 0 0 247px;
+        }
+    
+        &:nth-child(3) {
+          margin: 26px 0 0 247px;
+        }
       }
     }
     
@@ -413,36 +433,39 @@
     
           line-height: 1.55;
   
-          &:first-child {
-            margin: 10px 0 0 9px;
-          }
-         
-          &:nth-child(2) {
+          &:nth-of-type(2) {
             margin: 3px 100px 0 8px;
           }
-      
-          &:nth-child(3) {
+          
+          
+          &:nth-of-type(4) {
+            margin: 0 100px 0 8px;
+          }
+          
+          &:nth-of-type(6) {
+            margin: 0 100px 0 8px;
+          }
+          
+          &:nth-of-type(8) {
+            margin: 0 100px 0 8px;
+          }
+        }
+        
+        .title {
+          &:nth-of-type(1) {
+            margin: 10px 0 0 9px;
+          }
+
+          &:nth-of-type(3) {
             margin: 26px 0 0 9px;
           }
-      
-          &:nth-child(4) {
-            margin: 0 100px 0 8px;
-          }
-  
-          &:nth-child(5) {
+
+          &:nth-of-type(5) {
             margin: 25px 100px 0 8px;
           }
-      
-          &:nth-child(6) {
-            margin: 0 100px 0 8px;
-          }
-      
-          &:nth-child(7) {
+          
+          &:nth-of-type(7) {
             margin: 25px 0 0 8px;
-          }
-  
-          &:nth-child(8) {
-            margin: 0 100px 0 8px;
           }
         }
       }
@@ -476,7 +499,6 @@
           }
         }
       }
-    
       
       .img-logo-people {
         margin: 187px 0 0 0;
@@ -509,8 +531,10 @@
       .nav-link {
         font-size: 15px;
       }
+
       .swiper-slide {
         text-align: center;
+
         .nav-link {
           padding-top: 14px;
           padding-left: 13px;
@@ -522,9 +546,11 @@
         &:first-child {
           width: 140px;
         }
+
         &:nth-child(2) {
           width: 210px;
         }
+
         &:nth-child(3) {
           width: 135px;
         }
@@ -555,37 +581,39 @@
           color: $black;
     
           line-height: 1.55;
-  
-          &:first-child {
-            margin: 10px 0 0 9px;
-          }
-         
-          &:nth-child(2) {
+          
+          &:nth-of-type(2) {
             margin: 3px 80px 0 8px;
           }
-      
-          &:nth-child(3) {
+          
+          &:nth-of-type(4) {
+            margin: 0 80px 0 8px;
+          }
+          
+          &:nth-of-type(6) {
+            margin: 0 80px 0 8px;
+          }
+          
+          &:nth-of-type(8) {
+            margin: 0 80px 0 8px;
+          }
+        }
+        
+        .title {
+          &:nth-of-type(1) {
+            margin: 10px 0 0 9px;
+          }
+
+          &:nth-of-type(3) {
             margin: 26px 0 0 9px;
           }
-      
-          &:nth-child(4) {
-            margin: 0 80px 0 8px;
-          }
-  
-          &:nth-child(5) {
+
+          &:nth-of-type(5) {
             margin: 25px 0 0 8px;
           }
-      
-          &:nth-child(6) {
-            margin: 0 80px 0 8px;
-          }
-      
-          &:nth-child(7) {
+          
+          &:nth-of-type(7) {
             margin: 25px 0 0 8px;
-          }
-  
-          &:nth-child(8) {
-            margin: 0 80px 0 8px;
           }
         }
       }
@@ -601,20 +629,22 @@
 
       .text-holder {
         .description-people {
-          margin: 10px 0 0 0;
-         
           font-size: 17px;
           color: $black;
     
           line-height: 1.56;
-        }
-    
-        .description-people:nth-child(2) {
-          margin: 26px 0 0 0;
-        }
-    
-        .description-people:nth-child(3) {
-          margin: 26px 0 0 0;
+
+          &:first-child {
+            margin: 10px 0 0 0;
+          }
+          
+          &:nth-child(2) {
+            margin: 26px 0 0 0;
+          }
+      
+          &:nth-child(3) {
+            margin: 26px 0 0 0;
+          }
         }
       }
       
@@ -649,8 +679,10 @@
       .nav-link {
         font-size: 15px;
       }
+
       .swiper-slide {
         text-align: center;
+
         .nav-link {
           padding-top: 14px;
           padding-left: 13px;
@@ -662,9 +694,11 @@
         &:first-child {
           width: 140px;
         }
+
         &:nth-child(2) {
           width: 210px;
         }
+
         &:nth-child(3) {
           width: 135px;
         }
@@ -696,40 +730,41 @@
     
           line-height: 1.55;
   
-          &:first-child {
-            margin: 10px 0 0 9px;
-          }
-         
-          &:nth-child(2) {
+          &:nth-of-type(2) {
             margin: 3px 50px 0 8px;
           }
-      
-          &:nth-child(3) {
-            margin: 26px 0 0 9px;
-          }
-      
-          &:nth-child(4) {
+          
+          &:nth-of-type(4) {
             margin: 0 50px 0 8px;
           }
-  
-          &:nth-child(5) {
-            margin: 25px 0 0 8px;
-          }
-      
-          &:nth-child(6) {
+          
+          &:nth-of-type(6) {
             margin: 0 50px 0 8px;
           }
-      
-          &:nth-child(7) {
-            margin: 25px 0 0 8px;
-          }
-  
-          &:nth-child(8) {
+          
+          &:nth-of-type(8) {
             margin: 0 50px 0 8px;
           }
         }
+        
+        .title {
+          &:nth-of-type(1) {
+            margin: 10px 0 0 9px;
+          }
+         
+          &:nth-of-type(3) {
+            margin: 26px 0 0 9px;
+          }
+      
+          &:nth-of-type(5) {
+            margin: 25px 0 0 8px;
+          }
+      
+          &:nth-of-type(7) {
+            margin: 25px 0 0 8px;
+          }
+        }
       }
-
 
       .img-logo-values {
         margin: 261px 0 0 0;
@@ -742,20 +777,22 @@
 
       .text-holder {
         .description-people {
-          margin: 10px 0 0 0;
-         
           font-size: 17px;
           color: $black;
     
           line-height: 1.56;
-        }
-    
-        .description-people:nth-child(2) {
-          margin: 26px 0 0 0;
-        }
-    
-        .description-people:nth-child(3) {
-          margin: 26px 0 00;
+
+          &:first-child {
+            margin: 10px 0 0 0;
+          }
+      
+          &:nth-child(2) {
+            margin: 26px 0 0 0;
+          }
+      
+          &:nth-child(3) {
+            margin: 26px 0 00;
+          }
         }
       }
       
@@ -802,8 +839,10 @@
       .nav-link {
         font-size: 15px;
       }
+
       .swiper-slide {
         text-align: center;
+
         .nav-link {
           padding-top: 14px;
           padding-left: 13px;
@@ -815,9 +854,11 @@
         &:first-child {
           width: 130px;
         }
+
         &:nth-child(2) {
           width: 210px;
         }
+
         &:nth-child(3) {
           width: 115px;
         }
@@ -949,8 +990,10 @@
       .nav-link {
         font-size: 12px;
       }
+
       .swiper-slide {
         text-align: center;
+
         .nav-link {
           padding-top: 14px;
           padding-left: 13px;
@@ -962,9 +1005,11 @@
         &:first-child {
           width: 70px;
         }
+
         &:nth-child(2) {
           width: 90px;
         }
+
         &:nth-child(3) {
           width: 80px;
         }
@@ -1012,36 +1057,38 @@
     
           line-height: 1.55;
   
-          &:first-child {
+          &:nth-of-typed(2) {
+            margin: 3px 0 0 8px;
+          }
+          
+          &:nth-of-type(4) {
+            margin: 0 0 0 8px;
+          }
+          
+          &:nth-of-type(6) {
+            margin: 0 0 0 8px;
+          }
+          
+          &:nth-of-type(8) {
+            margin: 0 0 0 8px;
+          }
+        }
+        
+        .title {
+          &:nth-of-type(1) {
             margin: 10px 0 0 9px;
           }
          
-          &:nth-child(2) {
-            margin: 3px 0 0 8px;
-          }
-      
-          &:nth-child(3) {
+          &:nth-of-type(3) {
             margin: 26px 0 0 9px;
           }
       
-          &:nth-child(4) {
-            margin: 0 0 0 8px;
-          }
-  
-          &:nth-child(5) {
+          &:nth-of-type(5) {
             margin: 25px 0 0 8px;
           }
       
-          &:nth-child(6) {
-            margin: 0 0 0 8px;
-          }
-      
-          &:nth-child(7) {
+          &:nth-of-type(7) {
             margin: 25px 0 0 8px;
-          }
-  
-          &:nth-child(8) {
-            margin: 0 0 0 8px;
           }
         }
       }
@@ -1067,6 +1114,7 @@
       .text-holder {
         .description-people {
           font-size: 16px;
+
           &:first-child {
             margin: 215px 0 0 0;
           }
