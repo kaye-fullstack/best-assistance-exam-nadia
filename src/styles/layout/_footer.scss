@@ -203,7 +203,7 @@
     }
     
     .footer-right-links {
-      margin-bottom: 0;
+      margin: 0 10px 0 0;
       text-align: right;
 
       .fb-icon {
@@ -231,8 +231,6 @@
 
 @media (min-width: 1200px) and (max-width: 1373px) {
   .section-footer {
-    height: 685px;
-    
     .footer-top {
       .footer-app {
         .content {
@@ -293,7 +291,7 @@
 
     .footer-bottom {
       .items {
-        margin: -61px 0 0 -223px;
+        padding: 20px 0 20px;
       }
     }
   }
@@ -414,7 +412,6 @@
 @include respond-to(lg) {
   .section-footer {
     margin: 245px 0 0 0;
-    height: 530px;
 
     .footer-top {
       .footer-app {
@@ -490,7 +487,6 @@
 @include respond-to(md) {
   .section-footer {
     margin: -1px 0 0 0;
-    height: 630px;
     .footer-top {
       .footer-app {
         .content {
@@ -563,8 +559,7 @@
 
     .koein {
       display: block;
-
-      margin: 50px 0 0 0;
+      padding: 40px 0 20px;
       
       font-size: 14px;
       color: $white;
@@ -608,8 +603,6 @@
 @include respond-to(sm) {
   .section-footer {
     margin: -1px 0;
-    height: 1050px;
-
     
     .footer-top {
       .footer-app {
@@ -701,7 +694,7 @@
 
     .koein {
       display: block;
-      margin: 40px 0 0 0;
+      padding: 40px 0 20px;
       
       font-size: 14px;
       color: $white;
@@ -716,8 +709,6 @@
 @include respond-to(xs) {
   .section-footer {
     margin: -1px 0;
-    height: 1126px;
-    
     
     .footer-top {
       .footer-app {
@@ -809,7 +800,7 @@
     
     .koein {
       display: block;
-      margin: 40px 0 0 0;
+      padding: 40px 0 20px;
       
       font-size: 14px;
       color: $white;
@@ -823,8 +814,6 @@
 
 @media (min-width: 320px) and (max-width: 391px) {
   .section-footer {
-    height: 895px;
-
     .footer-top {
       .footer-app {
         .content {
@@ -907,8 +896,6 @@
 
 @media (min-width: 392px) and (max-width: 471px) {
   .section-footer {
-    height: 895px;
-    
     .footer-top {
       .footer-app {
         .content {
