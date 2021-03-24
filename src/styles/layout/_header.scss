@@ -6,32 +6,19 @@
 
 .section-header {
   position: fixed;
-  top: 22px;
   right: 0;
   left: 0;
-  z-index: 1;
-  padding: 27px 0 31px;
-  height: 117px;
+  
   background-color: transparent;
+
+  z-index: 1;
 
   .active {
     background-color: $white;
   }
 
-  .best-logo {
-    margin: -5px 0 0 0;
-  }
-
   .container {
-    padding-bottom: 15px;
-    margin-top: -47px;
-
     z-index: 1;
-  }
-
-  .navbar {
-    padding: 52px 0 0 0;
-    margin: -50px 0 0 0;
   }
 
   .navbar-nav {
@@ -48,6 +35,7 @@
 
   .nav-link:hover {
     color: #0076b1;
+
     text-decoration: none;
   }
 
@@ -56,17 +44,15 @@
   }
 
   .form-control{
-    
     padding: 14px 39px 13px 22px;
     margin: 16px 0 0 -2px;
 
+    justify-content: flex-start;
+    align-items: center;
 
     font-family: $text-opensans-semibold;
     font-size: 14px;
     color: $white;
-
-    justify-content: flex-start;
-    align-items: center;
 
     background-color: $bg-language;
     background-image: url("../assets/images/arrow down.png");
@@ -111,7 +97,6 @@
 
 @include respond-to(lg) {
   .section-header {
-
     .best-logo {
       width: 220px;
     }
