@@ -8,8 +8,15 @@
 $font-opensans: 'Open Sans';
 $text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
-/// @type List
-$text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$font-opensans-semibold: 'OpenSans-Semibold';
+$text-opensans-semibold: $font-opensans-semibold, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$font-opensans-bold: 'OPENSANS-BOLD';
+$text-opensans-bold: $font-opensans-bold, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$font-webfont: 'fontawesome-webfont';
+$text-webfont: $font-webfont, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
 
 /// Code (monospace) font family
 /// @type List
@@ -42,64 +49,32 @@ $mid-grey: #999 !default;
 /// @type Color
 $dark-grey: #444 !default;
 
-/// Black
-/// @type Color
 $black: #000 !default;
 
-/// White
-/// @type Color
 $white: #fff !default;
 
-/// Button Contact Color
-/// @type Color
 $bg-contact: #f9aa49 !default;
 
-/// Button Language Color
-/// @type Color
 $bg-language: #2574b6 !default;
 
-/// Header Background
-/// @type Color
 $bg-header: #fafbfd !default;
 
-///Button History
-/// @type Color
 $btn-history: #fde4c5 !default;
 
-/// Category News
-/// @type Color
 $bg-news: #f8a845 !default;
 
-/// Category Health
-/// @type Color
 $bg-health: #9ab854 !default;
 
-/// Category Success
-/// @type Color
 $bg-success: #278dd7 !default;
 
-/// Category Case
-/// @type Color
 $bg-case: #ae6b14 !default;
 
-
-/// Media Scroll bg
-/// @type Color
 $bg-media: #fffef9 !default;
 
-/// Why Us
-/// @type Color
 $why-us: #1974c2 !default;
 
 $ink: #3f2f2f !default;
 
 $sea-blue: #1974b1 !default;
 
-$font-opensans-semibold: 'OpenSans-Semibold';
-$text-opensans-semibold: $font-opensans-semibold, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
-
-$font-opensans-bold: 'OPENSANS-BOLD';
-$text-opensans-bold: $font-opensans-bold, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
-
-$font-webfont: 'fontawesome-webfont';
-$text-webfont: $font-webfont, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$filter-by: #f6fafd !default;

@@ -1,0 +1,43 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the mediasidebars of the site/application.
+// -----------------------------------------------------------------------------
+.media-scroll {
+  .media-side-scroll {
+    position: fixed;
+    top: 370px;
+    right: 0;
+
+    padding-top: 9px;
+    padding-right: 22px;
+    padding-left: 22px;
+
+    background-color: $bg-media;
+    
+    list-style: none;
+    line-height: 2.5;
+
+    z-index: 2;
+  }
+
+  .media-side-icons {
+    width: 18px;
+  }
+
+  .media-side-icons-fb {
+    width: 10px;
+  }
+}
+
+@include respond-to(sm) {
+  .media-scroll {
+    display: none;
+  }
+}
+
+@include respond-to(xs) {
+  .media-scroll {
+    display: none;
+  }
+}

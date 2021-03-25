@@ -5,29 +5,6 @@
 // -----------------------------------------------------------------------------
 
 .about {
-  .media-scroll {
-    .media-side-scroll {
-      position: fixed;
-      top: 370px;
-      right: 0;
-
-      padding-top: 9px;
-      padding-right: 22px;
-      padding-left: 22px;
-      
-      background-color: $bg-media;
-      
-      list-style: none;
-      line-height: 2.5;
-      
-      z-index: 2;
-    }
-
-    .media-side-icons {
-      width: 18px;
-    }
-  }
-
   .section-intro {
     position: relative;
     top: 110px;
@@ -806,10 +783,6 @@
 
 @include respond-to(sm) {
   .about {
-    .media-scroll {
-      display: none;
-    }
-
     .section-intro {
       .navs-wrapper {
         position: absolute;
@@ -957,10 +930,6 @@
 
 @include respond-to(xs) {
   .about {
-    .media-scroll {
-      display: none;
-    }
-
     .section-intro {
       .navs-wrapper {
         position: absolute;

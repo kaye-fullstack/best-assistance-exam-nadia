@@ -21,12 +21,12 @@
   cursor: pointer;
 }
 
-.btn-blue {
-  padding: 18px 26px;
-  margin: 101px 0 0 -143px;
+.btn-mission {
+  padding: 18px 10px;
+  margin: 25px 4px 0 0;
 
   font-family: $text-opensans-semibold;
-  font-size: 15px;
+  font-size: 14px;
   color: $white;
   
   background-image: linear-gradient(to right, #278dd7, #2685cc, #257cc1, #2474b6, #226cab);
@@ -38,11 +38,10 @@
 }
 
 .btn-history {
-  padding: 18px 58px;
-  margin: 101px 0 0 5px;
+  padding: 18px 37px;
   
   font-family: $text-opensans-semibold;
-  font-size: 15px;
+  font-size: 14px;
   color: $black;
   
   background-color: $btn-history;
@@ -54,8 +53,9 @@
 }
 
 .btn-journal {
-  padding: 18px 62px;
-  margin: 68px 0 0 0;
+  padding: 18px 45px;
+  margin: 45px 0 0 0;
+
 
   font-family: $text-opensans-semibold;
   font-size: 15px;
@@ -70,8 +70,7 @@
 }
 
 .btn-system {
-  padding: 18px 51px;
-  margin: 86px 0 0 155px;
+  padding: 18px 50px;
 
   font-family: $text-opensans-semibold;
   font-size: 15px;
@@ -85,215 +84,52 @@
   cursor: pointer;
 }
 
-@media (min-width: 1200px) and (max-width: 1373px) { 
+@include respond-to(lg) {
   .btn-contact {
-    padding: 14px 10px;
+    margin: 28px 5px 0 0;
   }
 
-  .btn-blue {
-    padding: 14px 20px;
-    margin: 101px 0 0 -80px;
-
-    font-size: 14px;
+  .btn-mission {
+    font-size: 11px;
   }
 
   .btn-history {
-    padding: 14px 46px;
-    margin: -10px 0 0 05;
-    
-    font-size: 14px;
+    padding: 18px 30px;
+
+    font-size: 11px;
   }
 
   .btn-journal {
-    padding: 14px 45px;
-
-    font-size: 14px;
+    padding: 18px 28px;
   }
 
   .btn-system {
-    padding: 14px 45px;
-    margin: 86px 0 0 125px;
+    padding: 16px 30px;
 
     font-size: 14px;
   }
 }
 
-@media (min-width: 1374px) and (max-width: 1435px) {
-  .btn-blue {
-    padding: 14px 20px;
-    margin: 101px 0 0 -80px;
-
-    font-size: 14px;
-  }
-
-  .btn-history {
-    padding: 14px 46px;
-    margin: -10px 0 0 05;
-    
-    font-size: 14px;
-  }
-
+@include respond-to(md) {
   .btn-journal {
-    padding: 14px 45px;
+    padding: 14px 15px 14px 15px;
+    margin: 24px 0 0 0;
 
-    font-size: 14px;
-  }
-
-  .btn-system {
-    padding: 14px 45px;
-    margin: 86px 0 0 125px;
-
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
-@media (min-width: 1436px) and (max-width: 1599px) {
-  .btn-blue {
-    padding: 18px 20px;
-    margin: 101px 0 0 -80px;
-
-    font-size: 14px;
-  }
-
-  .btn-history {
-    padding: 18px 46px;
-    margin: -10px 0 0 05;
-    
-    font-size: 14px;
-  }
-}
- 
-@include respond-to(lg-down) {
-  .btn-contact {
-    padding: 13px 20px;
-    margin: 30px -1px 0 0;
+@include respond-to(xs) {
+  .btn-mission {
+    padding: 13px 14.3px;
+    margin: 3px 0 0 -4px;
 
     font-size: 12px;
   }
 
-  .btn-blue {
-    padding: 14px 18px;
-    margin: 35px 0 0 -75px;
-  
-    font-size: 11px;
-  }
-  
   .btn-history {
-    padding: 14px 38px;
-    margin: 35px 0 0 5px;
+    padding: 13px 37px;
 
-    font-size: 11px;
-  }
-  
-  .btn-journal {
-    padding: 15px 35px 15px 35px;
-    margin: 40px 0 0 0;
-
-    font-size: 11px;
-  }
-
-  .btn-system {
-    padding: 14px 35px;
-    margin: 86px 0 0 75px;
-  
-    font-size: 11px;
-  }
-}
-
-@include respond-to(md-down) {
-  .btn-contact {
-    margin: 16px -1px 0 15px;
-  }
-
-  .btn-blue {
-    padding: 14px 18px;
-    margin: 35px -135px 0 69px;
-  
-    font-size: 11px;
-  }
-  
-  .btn-history {
-    padding: 14px 38px;
-    margin: 35px -142px 0 135px;
-
-    font-size: 11px;
-  }
-  
-  .btn-journal {
-    padding: 18px 20px 17px 20px;
-    margin: 40px 0 0 0;
-
-    font-size: 11px;
-  }
-
-  .btn-system {
-    padding: 14px 35px;
-    margin: 55px 0 0 -305px;
-  
-    font-size: 11px;
-  }
-}
-
-@include respond-to(sm-down) {
-  .btn-contact {
-    margin: 16px -1px 0 15px;
-  }
-
-  .btn-blue {
-    padding: 14px 18px;
-    margin: 50px 0 0 20px;
-  
-    font-size: 11px;
-  }
-  
-  .btn-history {
-    padding: 14px 38px;
-    margin: 35px 0 0 5px;
-
-    font-size: 11px;
-  }
-  
-  .btn-journal {
-    padding: 18px 20px 17px 20px;
-    margin: 40px 0 0 0;
-
-    font-size: 11px;
-  }
-
-  .btn-system {
-    padding: 14px 35px;
-    margin: 30px 0 0 0;
-  
-    font-size: 11px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 520px) {
-  .btn-blue {
-    padding: 14px 18px;
-    margin: 50px 0 0 20px;
-  
-    font-size: 11px;
-  }
-  
-  .btn-history {
-    padding: 14px 38px;
-    margin: 35px 0 0 5px;
-
-    font-size: 11px;
-  }
-  
-  .btn-journal {
-    padding: 18px 20px 17px 20px;
-    margin: 40px 0 0 0;
-
-    font-size: 11px;
-  }
-
-  .btn-system {
-    padding: 14px 35px;
-    margin: 30px 0 0 0;
-  
-    font-size: 11px;
+    font-size: 12px;
   }
 }

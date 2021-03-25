@@ -8,10 +8,9 @@
   position: fixed;
   right: 0;
   left: 0;
+  z-index: 2;
   
   background-color: transparent;
-
-  z-index: 1;
 
   .active {
     background-color: $white;
@@ -23,7 +22,7 @@
 
   .navbar-nav {
     .nav-link {
-      padding: 16px 42px 0 5px;
+      padding: 12px 14px 0 6px;
     }
   }
 
@@ -73,28 +72,6 @@
   }
 }
 
-@include respond-to(xl) {
-  .section-header {
-    .navbar-nav {
-      .nav-link {
-        padding: 12px 39px 0 6px;
-      
-        letter-spacing: .2px;
-      }
-    }
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1373px) {
-  .section-header {
-    .navbar-nav {
-      .nav-link {
-        padding: 12px 14px 0 6px;
-      }
-    }
-  }
-}
-
 @include respond-to(lg) {
   .section-header {
     .best-logo {
@@ -103,19 +80,19 @@
 
     .navbar-nav {
       .nav-link {
-        padding: 31px 10px 0 5px;
+        padding: 31px 8px 0 5px;;
         
         font-size: 12px;
       }
     }
 
     .form-control {
-      padding: 11px 36px 11px 22px;
+      padding: 14px 36px 13px 22px;
       margin: 30px 0 0 4px;
       
       font-size: 12px;
 
-      background-position: 45px 17px;
+      background-position: 45px 19px;
       background-size: 12px;
     }
   }
