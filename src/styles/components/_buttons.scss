@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+.btn-contact:hover {
+  background-color: $contact-hover;
+}
+
 .btn-mission {
   padding: 18px 10px;
   margin: 25px 4px 0 0;
@@ -37,6 +41,10 @@
   cursor: pointer;
 }
 
+.btn-mission:hover {
+  background-image: linear-gradient(to right, #226cab, #1c64a3, #165d9b, #0f5593, #074e8b);
+}
+
 .btn-history {
   padding: 18px 37px;
   
@@ -50,6 +58,10 @@
   outline: 0;
 
   cursor: pointer;
+}
+
+.btn-history:hover {
+  background-color: $history-hover;
 }
 
 .btn-journal {
@@ -69,6 +81,10 @@
   cursor: pointer;
 }
 
+.btn-journal:hover {
+  background-image: linear-gradient(to right, #226cab, #1c64a3, #165d9b, #0f5593, #074e8b);
+}
+
 .btn-system {
   padding: 18px 50px;
 
@@ -82,6 +98,10 @@
   outline: 0;
 
   cursor: pointer;
+}
+
+.btn-system:hover {
+  background-image: linear-gradient(to right, #226cab, #1c64a3, #165d9b, #0f5593, #074e8b);
 }
 
 @include respond-to(lg) {

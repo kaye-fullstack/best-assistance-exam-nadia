@@ -267,6 +267,10 @@
       appearance: none;
     }
 
+    .filter-by:hover {
+      background-color: $filter-hover;
+    }
+
     .news-filter, .health-filter, .success-filter, .case-filter {
       display: none;
     }

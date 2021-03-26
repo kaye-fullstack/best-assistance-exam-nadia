@@ -33,7 +33,7 @@
   }
 
   .nav-link:hover {
-    color: #0076b1;
+    color: $nav-hover;
 
     text-decoration: none;
   }
@@ -61,6 +61,10 @@
     border-radius: 25px;
 
     appearance: none;
+  }
+
+  .form-control:hover {
+    background-color: $language-hover;
   }
 
   .navbar-buttons {
@@ -126,7 +130,7 @@
       margin: 24px 40px 0 0;
 
       .icon-bar {
-        background-color: #2b6799;
+        background-color: $span-color;
       }
     }
 
@@ -162,7 +166,7 @@
       margin: 30px 40px 0 0;
 
       .icon-bar {
-        background-color: #2b6799;
+        background-color: $span-color;
       }
     }
 
@@ -199,7 +203,7 @@
       margin: 15px 40px 0 0;
 
       .icon-bar {
-        background-color: #2b6799;
+        background-color: $span-color;
       }
     }
 
