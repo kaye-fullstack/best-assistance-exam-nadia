@@ -5,8 +5,6 @@
 // -----------------------------------------------------------------------------
 
 .home {
-  transition: all .2s ease-in-out;
-
   .section-intro {
     position: relative;
     top: 0;
@@ -120,105 +118,104 @@
     margin-top: -91px;
     margin-bottom: 47px;
 
+    .content-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
 
-    .left {
-      padding-top: 40px;
-    }
+      .content-holder {
+        &:first-child {
+          display: flex;
+          flex-wrap: wrap;
+          padding-top: 170px;
 
-    .p-0 {
-      padding: 0;
-    }
+          .content-item {
+            &:last-child {
+              padding-left: 23px;
 
-    .mission-pic {
-      padding-top: 11px;
-      width: 321px;
-    }
-
-    .content {
-      .title {
-        margin-bottom: 12px;
-
-        font-family: $text-opensans-bold;
-        font-size: 36px;
-      }
-
-      .list-mission {
-        padding-top: 20px;
-        padding-left: 6px;
-        margin: 0;
-
-        li {
-          position: relative;
-
-          padding-left: 42px;
-          margin-bottom: 20px;
-         
-          font-size: 16px;
+              .content {
+                .title {
+                  margin-bottom: 12px;
+          
+                  font-family: $text-opensans-bold;
+                  font-size: 36px;
+                }
+          
+                .list-mission {
+                  padding-top: 20px;
+                  padding-left: 6px;
+                  margin: 0;
+          
+                  li {
+                    position: relative;
+          
+                    padding-left: 42px;
+                    margin-bottom: 20px;
+                   
+                    font-size: 16px;
+                  }
+          
+                  li:before {
+                    content: '';
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+          
+                    width: 24px;
+                    height: 24px;
+          
+                    background-image: url("../assets/images/checklist.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                  }
+                }
+              }
+            }
+          }
         }
+  
+        &:last-child {
+          padding: 142px 110px;
 
-        li:before {
-          content: '';
-          position: absolute;
-          top: 3px;
-          left: 0;
-
-          width: 24px;
-          height: 24px;
-
-          background-image: url("../assets/images/checklist.png");
-          background-position: center;
+          background-image: url("../assets/images/background solution.png");
           background-repeat: no-repeat;
-          background-size: 100%;
+    
+          .title {
+            margin-bottom: 35px;
+            font-family: $text-opensans-bold;
+            font-size: 35px;
+            color: $white;
+          }
+  
+          .solution {
+            margin-bottom: 32px;
+  
+            .icon-holder {
+              padding-top: 2px;
+              width: 73px;
+            }
+  
+            .media-body {
+              .icon-title {
+                margin-bottom: 5px;
+  
+                font-size: 16px;
+                font-family: $text-opensans-bold;
+                color: $white;
+              }
+  
+              .icon-desc {
+                margin-bottom: 0;
+  
+                font-size: 15px;
+                color: $white;
+              }
+            }
+          }
         }
       }
     }
-
-    .box {
-      padding: 36px;
-
-      background-image: url("../assets/images/background solution.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-
-      .box-content {
-        padding: 50px 0;
-        height: 100%;
-
-        .title {
-          margin-bottom: 35px;
-          font-family: $text-opensans-bold;
-          font-size: 35px;
-          color: $white;
-        }
-
-        .solution {
-          margin-bottom: 32px;
-
-          .icon-holder {
-            padding-top: 2px;
-            width: 73px;
-          }
-
-          .media-body {
-            .icon-title {
-              margin-bottom: 5px;
-
-              font-size: 16px;
-              font-family: $text-opensans-bold;
-              color: $white;
-            }
-
-            .icon-desc {
-              margin-bottom: 0;
-
-              font-size: 15px;
-              color: $white;
-            }
-          }
-        }
-      }
-    } 
     
     .media {
       display: flex;
@@ -536,36 +533,54 @@
     }
 
     .section-mission {
-      .mission-pic {
-        width: 260px;
-      }
-
-      .content {
-        .title {
-          font-size: 34px;
-        }
-
-        .list-mission {
-          li {
-            font-size: 13px;
-          }
-        }
-      }
-
-      .box {
-        .box-content {
-          .title {
-            font-size: 28px;
-          }
-
-          .solution {
-            .media-body {
-              .icon-title {
-                font-size: 13px;
+      .content-wrapper {
+        .content-holder {
+          &:first-child {
+            .content-item {
+              &:first-child {
+                .mission-pic {
+                  width: 265px;
+                }
               }
 
-              .icon-desc {
-                font-size: 12px;
+              &:last-child {
+                padding-left: 13px;
+
+                .content {
+                  .title {
+                    font-size: 34px;
+                  }
+          
+                  .list-mission {
+                    li {
+                      font-size: 13px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+    
+          &:last-child {
+            padding: 87px 37px;
+  
+            background-image: url("../assets/images/background solution.png");
+            background-repeat: no-repeat;
+            background-size: 414px 545px;
+      
+            .title {
+              font-size: 28px;
+            }
+    
+            .solution {
+              .media-body {
+                .icon-title {
+                  font-size: 13px;
+                }
+  
+                .icon-desc {
+                  font-size: 12px;
+                }
               }
             }
           }
@@ -633,13 +648,13 @@
     }
 
     .section-mission {
-      .row {
-        padding: 50px 0 40px;
-      }
+      .content-wrapper {
+        justify-content: center;
 
-      .box {
-        .box-content {
-          padding: 50px 135px;
+        .content-holder {
+          &:last-child {
+            margin-top: 40px;
+          }
         }
       }
     }
@@ -679,15 +694,16 @@
     }
 
     .section-mission {
-      .row {
-        padding: 50px 0 0;
-      }
-
-      .box {
-        margin-top: 30px;
-
-        .box-content {
-          padding: 50px 39px;
+      .content-wrapper {
+        justify-content: center;
+        
+        .content-holder {
+          &:last-child {
+            padding: 109px 60px;
+            margin-top: 40px;
+            
+            background-size: 544px 622px;
+          }
         }
       }
     }
@@ -745,68 +761,72 @@
     }
 
     .section-mission {
-      .row {
-        padding: 42px 0 0;
-      }
+      .content-wrapper {
+        justify-content: center;
 
-      .content {
-        .title {
-          margin-left: -6px;
-
-          font-size: 20px;
-        }
-
-        .list-mission {
-          padding-top: 10px;
-
-          li {
-            padding-left: 26px;
-
-            font-size: 14px;
-          }
-
-          li:before {
-            position: absolute;
-            left: -11px;
-            width: 20px;
-            height: 20px;
-        
-          }
-        }
-      }
-
-      .box {
-        padding: 13px;
-        margin-top: 34px;
-
-        .box-content {
-          padding: 45px 0;
-
-          .title {
-            font-size: 18px;
-          }
-
-          .solution {
-            margin-bottom: 18px;
-
-            .media-body {
-              .icon-title {
-                font-size: 14px;
-                margin: -8px 0 3px 0;
+        .content-holder {
+          &:first-child {
+            .content-item {
+              &:last-child {
+                .content {
+                  .title {
+                    margin-left: -6px;
+          
+                    font-size: 20px;
+                  }
+          
+                  .list-mission {
+                    padding-top: 10px;
+          
+                    li {
+                      padding-left: 26px;
+          
+                      font-size: 14px;
+                    }
+          
+                    li:before {
+                      position: absolute;
+                      left: -11px;
+                      width: 20px;
+                      height: 20px;
+                    }
+                  }
+                }
               }
-
-              .icon-desc {
-                font-size: 14px;
-              }
-
             }
-            
-            .icon-holder {
-              padding: 0;
-              width: 62px;
+          }
 
-              .icon {
-                width: 35px;
+          &:last-child {
+            padding: 77px 29px;
+            margin-top: 40px;
+
+            background-size: 290px 494px;
+
+            .title {
+              font-size: 18px;
+            }
+  
+            .solution {
+              margin-bottom: 18px;
+  
+              .media-body {
+                .icon-title {
+                  font-size: 14px;
+                  margin: -8px 0 3px 0;
+                }
+  
+                .icon-desc {
+                  font-size: 14px;
+                }
+              }
+              
+              .icon-holder {
+                padding: 0;
+                width: 62px;
+  
+                .icon {
+                  width: 35px;
+                }
               }
             }
           }
@@ -842,6 +862,18 @@
 
       .title-blue {
         font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1374px) and (max-width: 2000px) {
+  .home {
+    .section-intro {
+      .swiper-slide {
+        .text-holder {
+          padding-right: 738px;
+        }
       }
     }
   }
