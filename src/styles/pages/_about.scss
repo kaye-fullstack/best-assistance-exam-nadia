@@ -247,24 +247,19 @@
       flex-direction: column;
       justify-content: space-between;
       
-      .title {
-        font-family: $text-opensans-bold;
-        font-size: 42px;
-        color: $black;
-  
-        letter-spacing: -1.1px;
-
-        &:first-child {
-          padding-top: 95px;
-        }
-
-      }
-      
       .flex-holder {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
+        
+        .title {
+          font-family: $text-opensans-bold;
+          font-size: 42px;
+          color: $black;
+    
+          letter-spacing: -1.1px;
+        }
+        
         .description {
           font-size: 17px;
           color: $black;
@@ -284,49 +279,81 @@
         }
 
         &:first-of-type {
-          .description {
-            padding-right: 77px;
+          .info-holder {
+            padding-top: 96px;
+            width: 50%;
           }
 
-          .img-logo {
-            position: relative;
-            top: -169px;
-            left: 18px;
+          .description {
+            margin-top: -6px;
+          }
+
+          .image-holder {
+            width: 40%;
           }
         }
 
         &:nth-of-type(2) {
-          .img-logo {
-            height: 412px;
+          display: flex;
+          flex-direction: row-reverse;
+          padding-top: 120px;
+
+          .text-holder {
+            .title {
+              line-height: 1.28;
+            }
+
+            .description {
+              line-height: 1.48;
+            }
           }
 
-          .item {
-            &:first-child {
-              order: 2;
-            }
+          .info-holder {
+            width: 48%;
+          }
 
-            &:last-child {
-              order: 1;
-            }
+          .image-holder {
+            padding-top: 138px;
+            width: 40%;
+          }
+
+          .img-logo {
+            height: 412px;
           }
         }
         
         &:nth-of-type(3) {
+          padding-top: 129px;
+
+          .info-holder {
+            width: 49%;
+
+            line-height: 1.6;
+          }
+
+          .image-holder {
+            padding-top: 38px;
+            width: 40%;
+          }
+
           .img-logo {
             width: 420px;
-            height: 412px;
+            height: 326px;
           }
         }
 
         &:last-of-type {
-          .item {
-            &:first-child {
-              order: 2;
-            }
+          display: flex;
+          flex-direction: row-reverse;
+          padding-top: 144px;
 
-            &:last-child {
-              order: 1;
-            }
+          .info-holder {
+            padding-top: 136px;
+            width: 48%;
+          }
+
+          .image-holder {
+            width: 40%;
           }
         }
       }
@@ -334,6 +361,9 @@
   }
 }
 
+.section-footer {
+  margin: 132px 0 0 0;
+}
 
 @include respond-to(lg) {
   .about {
@@ -373,81 +403,57 @@
 
     .section-what-we-do {
       .flex-wrapper {
-        .flex-info {
-          &:nth-of-type(1) {
-            .title {
-              padding-left: 20px;
-            }
-
-            .description {
-              padding: 0 100px 0 20px;
-            }
+        .flex-holder {
+          .description {
+            width: 85%;
           }
-
-          &:nth-of-type(4) {
-            .title {
-              padding: 121px 0 0 0;
+          
+          &:first-of-type {
+            .info-holder {
+              width: 50%;
             }
   
-            
-            .text-holder {
-              .title {
-                padding: 0;
-              }
-              
-              .description {
-                padding: 0 100px 0 0;
-              }
+            .image-holder {
+              width: 50%;
             }
           }
-
-          &:nth-of-type(5) {
-            .title {
-              padding-left: 20px;
-            }
-
-            .description {
-              padding: 0 100px 0 20px;
-            }
-          }
-
-          &:nth-of-type(8) {
-            .title {
-              padding: 155px 0 0 0;
-            }
-            
-            .description {
-              padding: 0 100px 0 0;
-            }
-          }
-        }
-
-        .flex-image {
-          .img-logo {
-            width: 360px;
-          }
-
+  
           &:nth-of-type(2) {
-            .img-logo {
-              margin: 0;
+            .info-holder {
+              width: 50%;
             }
-          }
 
+            .text-holder {
+              width: 85%;
+            }
+  
+            .image-holder {
+              width: 50%;
+            }
+          }
+          
           &:nth-of-type(3) {
-            .img-logo {
-              margin: 96px 0 0 20px;
+  
+            .info-holder {
+              width: 50%;
+            }
+
+            .text-holder {
+              width: 85%;
+            }
+  
+            .image-holder {
+              width: 50%;
             }
           }
   
-          &:nth-of-type(6) {
-            .img-logo {
-              margin: 143px 0 0 0;
+          &:last-of-type {
+            .info-holder {
+              width: 50%;
             }
-          }
   
-          &:nth-of-type(7) {
-            .img-logo {
-              margin: 153px 0 0 20px;
+            .image-holder {
+              width: 50%;
             }
           }
         }
